@@ -1,0 +1,9 @@
+#portfolio {
+    /* background-image: url("../images/back2.jpg"); */
+    background-color: lightseagreen;
+     /* background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;  */
+    height: 100vh;
+}
