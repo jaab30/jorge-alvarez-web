@@ -1,5 +1,8 @@
 import React from "react";
+import 'react-sticky-header/styles.css';
+
 import "./style.css";
+import Nav from "../../components/Nav"
 
 import IntroPage from "../../pages/IntroPage"
 import About from "../../pages/About"
@@ -12,12 +15,13 @@ import Footer from "../../components/Footer"
 
 class Main extends React.Component {
 
-
+   
 
     render(){
 
         return (
             <div>
+                <Nav/>
                 <IntroPage />
                 <About />
                 <Work />
@@ -25,6 +29,7 @@ class Main extends React.Component {
                 <Contact />
                 <Footer />
             </div>
+            
         )
     }
 

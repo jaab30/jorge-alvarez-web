@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./style.css";
 
 import VideoBack from "../../components/VideoBack"
@@ -7,14 +8,28 @@ import NavBlock from "../../components/NavBlock";
 
 class IntroPage extends React.Component {
 
-
+    // state = {
+    //     height: '50px'
+    //   }
+    
+    //   listenScrollEvent = e => {
+    //     if (window.scrollY > 400) {
+    //       this.setState({height: '50px'})
+    //     } else {
+    //       this.setState({height: '100vh'})
+    //     }
+    //   }
+    
+    //   componentDidMount() {
+    //     window.addEventListener('scroll', this.listenScrollEvent)
+    //   }
 
     render(){
 
         return (
-            <div className="introPage">
+            <div id="intro" className="introPage">
                 <VideoBack />
-                <div class="content">
+                <div className="content">
                     <h1 className="headingIntro">Portfolio</h1>
                     <NavBlock
                     toContent={"/#about"}
@@ -35,8 +50,7 @@ class IntroPage extends React.Component {
                     toContent={"/#contact"}
                     classContent={"nav contact"}
                     title={"Contact"} 
-                    />
-                    
+                    /> 
                 </div>
             </div>
         )

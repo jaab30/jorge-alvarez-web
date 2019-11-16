@@ -1,25 +1,25 @@
 #about {
     position: relative;
-    background-color: black;
+    background-color: white;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: .7fr 1fr;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: .7fr 1fr; */
     /* background-image: url("../images/back1.jpg");  */
     /* background-attachment: fixed;
     background-position: center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     height: 100vh;
-    /* padding: 40px 80px; */
+    padding: 40px 80px;
 }
 .overlay {
-    background-color: rgba(71, 71, 71, 0.5);
-    position: absolute;
+    /* background-color: rgba(71, 71, 71, 0.5); */
+    /* position: absolute;
     top: 0;
     left:0;
-    width: 100%;
+    width: 100%; */
     /* height: 100%; */
-    z-index: 1;
+    /* z-index: 1; */
 }
 .aboutTitle{
     grid-column-start: 1;
@@ -28,7 +28,7 @@
 p.h1bio {
     position: relative;
     padding: 40px 0 0 0;
-    margin: 100px 0 0 0;
+    /* margin: 50px 0 0 0; */
     color: white;
     font-size: 5em;
     text-shadow: rgb(32, 32, 32, 0.6) 2px 4px;
