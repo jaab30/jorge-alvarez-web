@@ -25,11 +25,27 @@
 
   .headingIntro {
     position: absolute;
-    top: 40%;
+    /* top: 0; */
     left: 0;
     width: 100%;
     color: white;
     text-align: center;
     font-size: 100px;
     z-index:10;
+    font-family: 'Prosto One', cursive;
+    font-size: 9em;
+    margin-top: 100px;
+}
+
+.typeWriter {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top:30%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+  color: rgb(255, 255, 255, .5);
+  z-index: 500;
 }

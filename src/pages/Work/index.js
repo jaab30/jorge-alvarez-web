@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./style.css"
 
 
@@ -11,6 +12,7 @@ function Work(props) {
             <div className="workTitle">
                 <p className="hOneWork">Work</p>
             </div>
+           
             <div className="job job-1">
                 <h3>TRILOGY EDUCATION</h3>
                 <h4>University of Central Florida Coding Bootcamp</h4>
@@ -29,6 +31,7 @@ function Work(props) {
                         assignments.</li>
                 </ul>
             </div>
+           
             <div className="job job-2">
                 <h3>FULL SAIL UNIVERSITY</h3>
                 <br></br>

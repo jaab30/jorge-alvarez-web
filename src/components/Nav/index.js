@@ -40,7 +40,7 @@ class Nav extends React.Component {
                         <Link className="navItem-link" to="/#contact">Contact</Link>
                     </div>
                     <div className="navItemLogo">
-                        <Link className="navItem-link" to="/#intro">JA</Link>
+                        <Link className="navItem-link" to="/#intro">Jorge Alvarez</Link>
                     </div>
                 </div>
             )

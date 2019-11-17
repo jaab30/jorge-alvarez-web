@@ -11,7 +11,7 @@ function NavBlock(props) {
         <Link to={props.toContent}>
             <div className={props.classContent}>
                 <div className="navTextDiv">
-                    <h2 className="navText">{props.title}</h2>
+                    <p className="navText">{props.title}</p>
                 </div>
             </div>
         </Link>

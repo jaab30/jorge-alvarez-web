@@ -1,12 +1,23 @@
 import React from "react";
-
+import styled, { keyframes } from 'styled-components';
+import { flash } from 'react-animations'
+import Typing from 'react-typing-animation';
 import "./style.css";
 
 import VideoBack from "../../components/VideoBack"
 import NavBlock from "../../components/NavBlock";
 
 
+const fadeInAnimation = keyframes`${flash}`;
+ 
+const FadeDiv = styled.div`
+    animation: .7s ${fadeInAnimation};
+    top: 10%;
+    `;
+
+    
 class IntroPage extends React.Component {
+    
 
     // state = {
     //     height: '50px'
@@ -25,12 +36,21 @@ class IntroPage extends React.Component {
     //   }
 
     render(){
+        
 
         return (
             <div id="intro" className="introPage">
+                
                 <VideoBack />
                 <div className="content">
-                    <h1 className="headingIntro">Portfolio</h1>
+                <Typing>
+                    <div className="typeWriter">
+                    <Typing.Delay ms={10000} />
+                    <Typing.Speed ms={100} />
+                    Full Stack Web Developer
+                    </div>
+                </Typing>
+                    <FadeDiv><h1 className="headingIntro">JA</h1></FadeDiv>
                     <NavBlock
                     toContent={"/#about"}
                     classContent={"nav about"}
