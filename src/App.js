@@ -7,11 +7,13 @@ import Main from "./pages/Main"
 
 function App() {
   return (
-    <Router>
-      <Container>
-      <Route exact path="/" component={Main} />
-      </Container>
-    </Router>
+    
+      <Router>
+        <Container>
+        <Route exact path="/" component={Main} />
+        </Container>
+      </Router>
+  
   );
 }
 

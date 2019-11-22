@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from 'styled-components';
 import { flash } from 'react-animations'
-import Typing from 'react-typing-animation';
+// import Typing from 'react-typing-animation';
 import "./style.css";
 
 import VideoBack from "../../components/VideoBack"
@@ -12,7 +12,6 @@ const fadeInAnimation = keyframes`${flash}`;
  
 const FadeDiv = styled.div`
     animation: .7s ${fadeInAnimation};
-    top: 10%;
     `;
 
     
@@ -43,14 +42,10 @@ class IntroPage extends React.Component {
                 
                 <VideoBack />
                 <div className="content">
-                <Typing>
                     <div className="typeWriter">
-                    <Typing.Delay ms={10000} />
-                    <Typing.Speed ms={100} />
                     Full Stack Web Developer
                     </div>
-                </Typing>
-                    <FadeDiv><h1 className="headingIntro">JA</h1></FadeDiv>
+                    <FadeDiv><h1 className="headingIntro">Jorge Alvarez</h1></FadeDiv>
                     <NavBlock
                     toContent={"/#about"}
                     classContent={"nav about"}

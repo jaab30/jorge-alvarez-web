@@ -4,10 +4,10 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: .7fr .5fr;
     grid-gap: 20px;
-    /* background-image: url("../images/back1.jpg");  */
+    background-image: url("/images/contact.jpg"); 
     background-attachment: fixed;
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     /* padding: 40px 80px; */
@@ -31,7 +31,7 @@ p.hOneWork {
 
 .job {
     color: white;
-    background-color: rgba(88, 0, 0, 0.6);
+    background-color: rgba(83, 29, 29, 0.6);
     border-radius: 0 20px;
     padding: 30px 30px 30px 40px;
 

@@ -1,69 +1,109 @@
-#about {
+.aboutParallax {
     position: relative;
-    background-color: white;
-    display: grid;
-    /* grid-template-columns: auto auto auto;
-    grid-template-rows: .7fr 1fr; */
-    /* background-image: url("../images/back1.jpg");  */
+    /* background-image: url("/images/background.png");  */
     /* background-attachment: fixed;
-    background-position: center; */
-    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat; */
     /* background-size: cover; */
     height: 100vh;
-    padding: 40px 80px;
+    width: 100%;
+    /* padding: 40px; */
 }
+
+
+
+/* .imgAbout {
+    position: relative;
+
+
+
+} */
 .overlay {
-    /* background-color: rgba(71, 71, 71, 0.5); */
-    /* position: absolute;
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.7);   */
+    background-image: url("/images/code3.jpg");  
+    opacity: 1;
     top: 0;
     left:0;
-    width: 100%; */
-    /* height: 100%; */
-    /* z-index: 1; */
+    width: 100%;
+    height: 40%;
+    border-bottom: double rgb(255, 255, 255, .6) 2px;
+    z-index: 1;
+}
+.overlay2 {
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.7);   */
+    top: 100px;
+    left:0;
+    width: 50%;
+    height: 80%;
+    /* border-right: double white 2px; */
+    z-index: 1;
 }
 .aboutTitle{
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-p.h1bio {
-    position: relative;
-    padding: 40px 0 0 0;
-    /* margin: 50px 0 0 0; */
-    color: white;
-    font-size: 5em;
-    text-shadow: rgb(32, 32, 32, 0.6) 2px 4px;
-    text-align: right;
+    position: absolute;
+    margin: 0;
     z-index: 10;
+    top: 35%;
+    left: 37%;
+
+}
+h2.h2bio {
+    
+    /* padding: 40px 0 0 0; */
+    /* margin: 100px 0 0 0; */
+    font-family: 'Revalia', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    text-shadow: none;
+    text-align: center;
    
 }
 
 .bioDiv {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    position: absolute; 
+    top: 10%;
+    left: 40%;
+    text-align: center;
+    margin: 50 0 0 0;
+    z-index: 10;
 }
 
 .bioImg {
-    position: relative;  
     width: 250px;
     border-radius: 50%;
-    border: 2px solid white;
-    margin: 0 auto;
-    z-index: 10;
-
+    border: 2px solid rgb(255, 255, 255, .5);
 }
 .bioTextDiv {
-    grid-column-start: 3;
-    margin: 10px 0 0 30px;
-    position: relative;
+    /* margin: 10px 0 0 30px; */
+    position: absolute;
+    right: 0;
+    bottom: 270px;
+    /* width: 100%; */
+    text-align: center;
+    padding: 30px 100px 10px;
+    background-color: rgba(24, 24, 24, 0.9);
+
 
 }
 .bioText {
-    position: relative;  
-    font-size: 1.2em;
+    position: relative; 
+    font-family: 'Cairo', sans-serif; 
+    font-size: 1.1em;
     color: white;
     text-align: justify;
     background-color: rgba(24, 24, 24, 0.8);
-    padding: 30px;
-    border-radius: 10px;
-    z-index: 10;
+    /* padding: 30px; */
+    border-radius: 10px 0;
+    z-index: 5;
+    /* width: 80%; */
+
+}
+.techImg {
+    margin-top: 30px;
+}
+.techIcon {
+    opacity:.7;
+    margin: 5px;
+    width: 70px;
 }
