@@ -9,101 +9,113 @@
     width: 100%;
     /* padding: 40px; */
 }
-
-
-
-/* .imgAbout {
-    position: relative;
-
-
-
-} */
-.overlay {
-    position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.7);   */
-    background-image: url("/images/code3.jpg");  
-    opacity: 1;
-    top: 0;
-    left:0;
+.container-fluid {
+    padding: 0;
+}
+.topRowAbout {
     width: 100%;
-    height: 40%;
-    border-bottom: double rgb(255, 255, 255, .6) 2px;
-    z-index: 1;
+    height: 50vh;
+    padding-top: 80px
 }
-.overlay2 {
-    position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.7);   */
-    top: 100px;
-    left:0;
-    width: 50%;
-    height: 80%;
-    /* border-right: double white 2px; */
-    z-index: 1;
-}
-.aboutTitle{
-    position: absolute;
+.row.bottomRowAbout {
+    background-color: rgba(24, 24, 24, .9);  
+    opacity: 1;
+    bottom: -600px;
+    width: 100%;
+    height: 50vh;
     margin: 0;
-    z-index: 10;
-    top: 35%;
-    left: 37%;
-
+    padding-top: 70px
 }
+
 h2.h2bio {
     
-    /* padding: 40px 0 0 0; */
+    /* padding: 30px 0 0 0; */
     /* margin: 100px 0 0 0; */
     font-family: 'Revalia', cursive;
     color: rgb(255, 255, 255);
     font-size: 4em;
     text-shadow: none;
     text-align: center;
-   
-}
-
-.bioDiv {
-    position: absolute; 
-    top: 10%;
-    left: 40%;
-    text-align: center;
-    margin: 50 0 0 0;
-    z-index: 10;
 }
 
 .bioImg {
     width: 250px;
     border-radius: 50%;
     border: 2px solid rgb(255, 255, 255, .5);
-}
-.bioTextDiv {
-    /* margin: 10px 0 0 30px; */
-    position: absolute;
-    right: 0;
-    bottom: 270px;
-    /* width: 100%; */
     text-align: center;
-    padding: 30px 100px 10px;
-    background-color: rgba(24, 24, 24, 0.9);
-
-
 }
+
 .bioText {
     position: relative; 
     font-family: 'Cairo', sans-serif; 
     font-size: 1.1em;
     color: white;
     text-align: justify;
-    background-color: rgba(24, 24, 24, 0.8);
+    /* background-color: rgba(24, 24, 24, 0.8); */
     /* padding: 30px; */
     border-radius: 10px 0;
-    z-index: 5;
     /* width: 80%; */
-
 }
 .techImg {
     margin-top: 30px;
+    text-align: center;
 }
 .techIcon {
     opacity:.7;
     margin: 5px;
-    width: 70px;
+    width: 50px;
+    
 }
+
+
+/* .overlay {
+    position: absolute;
+    background-color: rgba(24, 24, 24, .9);  
+    background-image: url("/images/code3.jpg");  
+    opacity: 1;
+    bottom: -600px;
+    left:0;
+    width: 100%;
+    height: 200%;
+    border-bottom: double rgb(255, 255, 255, .6) 2px;
+    z-index: 1;
+} */
+/* .overlay2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);  
+    top: 100px;
+    left:0;
+    width: 50%;
+    height: 80%;
+    border-right: double white 2px;
+    z-index: 1;
+} */
+/* .aboutTitle{
+    position: absolute;
+    margin: 0;
+    z-index: 10;
+    top: 175%;
+    left: 37%;
+
+} */
+
+/* .bioTextDiv {
+    margin: 10px 0 0 30px;
+    position: absolute;
+    right: 0;
+    bottom: -500px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 100px 10px;
+    background-color: rgba(24, 24, 24, 0.9);
+    z-index: 5;
+} */
+
+/* .bioDiv {
+    position: absolute; 
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    margin: 50 0 0 0;
+    z-index: 10;
+} */

@@ -1,0 +1,41 @@
+[
+    {
+        "employer":"TRILOGY EDUCATION / UCF",
+        "employer_sub":"University of Central Florida Coding Bootcamp",
+        "position":"Teacher Assistant - Web Development Program",
+        "description": [
+            "Provide support and guidance to the students attending UCF's Full Stack Web Development Program.",
+            "Reinforce lesson material presented by lead Instructor by helping students with questions and reviewing material one-on-one or in small groups.",
+            "Teach class material to students as well as lead class reviews and discussions in the following subjects: HTML5, CSS3, Javascript (ES6), JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, RESTful API's, MVC, Handlebars, PHP, PHP Frameworks, React Js, Agile Methodology, Scrum & GitHub Version Control Platform.",
+            "Help students with troubleshooting and debugging computer and coding issues.",
+            "Provide record keeping, such as tracking attendance and grading homework assignments."
+        ],
+        "image": "images/trilogy.png"
+
+    },
+    {
+        "employer":"FULL SAIL UNIVERSITY",
+        "employer_sub":"",
+        "position":"Instructor - Lab Specialist",
+        "description": [
+            "Recognized by Program Director for leading students to successfully complete class objectives.",
+            "Assist and helps over 200 students monthly with equipment and software set up as well as implementing troubleshooting techniques to solve computer and/or software issues.",
+            "Assist in developing lesson plans based on state requirements and the specific needs of the students.",
+            "Assist with classroom instruction and provide support and guidance to students."
+        ],
+        "image": "images/fullsail.png"
+    },
+    {
+        "employer":"YRS MIDI Systems",
+        "employer_sub":"",
+        "position":"Software Support / Web",
+        "description": [
+            "Creation, design and maintenance of Store Web Page.",
+            "Keep all web content up to date ( ie. new inventory, prices, product availability, etc )",
+            "Responsible for installation, maintenance and support of software applications.",
+            "Responsible for instructing clients on how to utilize new software applications and how to apply troubleshooting techniques to solve software issues."
+        ],
+        "image": "images/yrs.png"
+    }
+
+]
