@@ -74,8 +74,6 @@ function About(props) {
                         </div>
                     </div>
                 </div>
-
-            <div style={{ height: '200px' }} />
             </section>
         
             </Parallax>

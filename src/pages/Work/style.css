@@ -3,13 +3,14 @@
 }
 
 #work {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 80px;
 }
 .rowDiv {
     width: 90%;
     padding: 0 10px;
     background-color: rgb(0, 70, 71, .7);
+    margin-bottom: 40px;
     /* border: rgb(255, 255, 255, .5) 1px solid; */
 
 }
@@ -49,7 +50,7 @@
     text-shadow: none;
     text-align: center;
     margin-bottom: 40px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
     
 }
 

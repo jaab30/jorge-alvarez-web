@@ -1,9 +1,59 @@
 #portfolio {
-    /* background-image: url("../images/back2.jpg"); */
-    background-color: lightseagreen;
-     /* background-attachment: fixed;
+    background-image: url("/images/geometric.jpg");
+    /* background-color: lightseagreen; */
+     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;  */
-    height: 100vh;
+     background-size: cover; 
+     min-height: 100vh;
+}
+.portfolioCont{
+    padding-bottom: 50px;
+}
+
+.projectHeaderRow h2 {
+    font-family: 'Revalia', cursive;
+    color: white;
+    font-size: 4em;
+    text-shadow: none;
+    text-align: center;
+    margin: 70px 0 40px;
+    /* padding-right: 100px; */
+    
+}
+.techCol {
+    width: 100%;
+    margin: 0 0 30px;
+    text-align: center;
+}       
+
+
+img.techIconPort {
+    /* background-color: red;  */
+    cursor: pointer;
+    opacity:1;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0, .5);
+    transition: background-color .2s;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+    /* filter: drop-shadow(1px 1px 2px rgb(255, 255, 255, .5)) */
+
+}
+img.techIconPort:hover {
+    /* box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.4); */
+    /* filter: blur(2px) */
+
+    background-color: rgb(0, 0, 0, .3);
+    /* transition: background-color .8s; */
+}
+img.techIconPort:active {
+    box-shadow: none;
+    filter: contrast(50%);
+
+    background-color: rgb(0, 0, 0, .5);
+    /* transition: background-color .8s; */
 }
