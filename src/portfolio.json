@@ -18,7 +18,7 @@
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "NODE", "Express", "Handlebars", "Full_CRUD", "Sequelize", "MySQL", "Restful_APIs"]
     },
     {
-        "title":"Intake Recipe Search",
+        "title":"Intake - Low Carb Recipe Search",
         "image":"images/portfolio/project2.jpg",
         "description":"The main functionality for this web application is to perform searches for 'Low Carb' recipes. In addition, the application will show the user 'Featured and Trendy Recipes'. The user will also be able to 'Save' favorite recipes to the 'favorite List' as well as being able to submit their own recipe for other users to try.",
         "role": "Back and Front End Lead Developer (team of 4).",

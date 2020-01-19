@@ -7,7 +7,8 @@ import "./style.css"
 class Portfolio extends React.Component {
 
     state =  {
-        projects: projectsObj
+        projects: projectsObj,
+        webToolTitle: ""
     }
     
     onSubmit = (x) => {
@@ -15,13 +16,21 @@ class Portfolio extends React.Component {
         //     projects: projectsObj
         // }   )
         
-            console.log(this.state.projects)
-            console.log(projectsObj)
-        let filterTools = ""
-       filterTools = projectsObj.filter(item => item.webTools.indexOf(x) !== -1)
-        console.log(filterTools)
+            let filterTools = "";
+            let webToolTitle = "";
+            filterTools = projectsObj.filter(item => item.webTools.indexOf(x) !== -1)
+            if (x === "HTML5"){
+                webToolTitle = "HTML5 / CSS3";
+            } else if (x === "NODE"){
+                webToolTitle = "NODE / Express";
+            } else {
+                webToolTitle = x;
+            }
+
+
         this.setState({
-            projects: filterTools
+            projects: filterTools,
+            webToolTitle: webToolTitle
             }) 
     }
     
@@ -35,6 +44,7 @@ class Portfolio extends React.Component {
                     <header className="row projectHeaderRow">
                         <div className="col-md-12">
                             <h2>Projects</h2>
+                            <h3>{this.state.webToolTitle}</h3>
                         </div>  
                     </header>
                     <div className="row">
