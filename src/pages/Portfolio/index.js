@@ -8,7 +8,7 @@ class Portfolio extends React.Component {
 
     state =  {
         projects: projectsObj,
-        webToolTitle: ""
+        webToolTitle: "Web Tools"
     }
     
     onSubmit = (x) => {
@@ -23,6 +23,8 @@ class Portfolio extends React.Component {
                 webToolTitle = "HTML5 / CSS3";
             } else if (x === "NODE"){
                 webToolTitle = "NODE / Express";
+            } else if (x === "Full_CRUD"){
+                webToolTitle = "C.R.U.D.";
             } else {
                 webToolTitle = x;
             }
@@ -44,7 +46,7 @@ class Portfolio extends React.Component {
                     <header className="row projectHeaderRow">
                         <div className="col-md-12">
                             <h2>Projects</h2>
-                            <h3>{this.state.webToolTitle}</h3>
+                            <h3 className="techTitle">{this.state.webToolTitle}</h3>
                         </div>  
                     </header>
                     <div className="row">

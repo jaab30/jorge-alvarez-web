@@ -21,6 +21,12 @@
     /* padding-right: 100px; */
     
 }
+.techTitle {
+    font-family:'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: white;
+
+}
 .techCol {
     width: 100%;
     margin: 0 0 30px;
