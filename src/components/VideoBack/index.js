@@ -20,7 +20,6 @@ class VideoBack extends React.Component {
 
       render() {
             return(
-                // console.log(this.state.videoSrc)
                 <video autoPlay muted loop id="myVideo">
                     <source src={this.state.videoSrc} type="video/mp4"/>
                     Your browser does not support HTML5 video.

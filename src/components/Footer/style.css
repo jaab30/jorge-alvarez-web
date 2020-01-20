@@ -1,9 +1,18 @@
 #footer {
-    background-color: lightslategray;
-    /* background-image: url("../images/back56.jpeg"); */
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  */
-    height: 20vh;
+    min-height: 10vh;
+}
+.footerText {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:center;
+    margin: 30px 0;
+
+    
+}
+.footerText a {
+    color: #aaa;
+    text-decoration: none;
+}
+.footerText a:hover {
+    color: #ccc;
+    text-decoration: underline;
 }

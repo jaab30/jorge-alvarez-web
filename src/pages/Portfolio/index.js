@@ -15,8 +15,7 @@ class Portfolio extends React.Component {
     }
 
     listenScrollEvent = e => {
-        //   console.log(window.scrollY)
-    
+
         if (window.scrollY < 2800) {
           this.setState({display: 'none'})
         } else {
@@ -27,15 +26,31 @@ class Portfolio extends React.Component {
       componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
       }
+
+      shuffle = (a) => {
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
     
     onSubmit = (x) => {
-        // this.setState({
-        //     projects: projectsObj
-        // }   )
-        
-            let filterTools = "";
-            let webToolTitle = "";
-            filterTools = projectsObj.filter(item => item.webTools.indexOf(x) !== -1)
+       
+            let filterTools;
+            let shuffleTools = [];
+            let webToolTitle = "Web Tools";
+            
+            if (x === "all"){
+                filterTools = projectsObj;
+                this.setState({
+                    projects: projectsObj,
+                    webToolTitle: webToolTitle
+                    })
+            } else {
+                filterTools = projectsObj.filter(item => item.webTools.indexOf(x) !== -1)
+            
+            shuffleTools = this.shuffle(filterTools)
             if (x === "HTML5"){
                 webToolTitle = "HTML5 / CSS3";
             } else if (x === "NODE"){
@@ -46,16 +61,15 @@ class Portfolio extends React.Component {
                 webToolTitle = x;
             }
 
-
         this.setState({
-            projects: filterTools,
+            projects: shuffleTools,
             webToolTitle: webToolTitle
             }) 
+        }
     }
     
     render(){
         
-        // webToolsSplit = this.state.projects.webTools.join(", ")
         return(
             <section id="portfolio">
                 <div className="container">
@@ -67,6 +81,7 @@ class Portfolio extends React.Component {
                     </header>
                     <div className="row">
                         <div className="col-ms-12 techCol">
+                            <img onClick={() => {this.onSubmit("all")}} className="techIconPort" src="/images/tech/asterisk.png" alt="icon" title="ALL PROJECTS"/>
                             <img onClick={() => {this.onSubmit("HTML5")}} className="techIconPort" src="/images/tech/html5v1.png" alt="icon" title="HTML5 / CSS3"/>
                             <img onClick={() => {this.onSubmit("JavaScript")}} className="techIconPort" src="/images/tech/javascriptv1.png" alt="icon" title="JavdScript"/>
                             <img onClick={() => {this.onSubmit("jQuery")}} className="techIconPort" src="/images/tech/jqueryv1.png" alt="icon" title="jQuery"/>
@@ -81,7 +96,6 @@ class Portfolio extends React.Component {
                         </div>
                     </div>
                     <div className="row portfolioCont">
-                        {/* <div className="col-4"> */}
                             {this.state.projects.map((item, i)=>(
                                 <PortfolioCard 
                                 key={i}
@@ -95,7 +109,6 @@ class Portfolio extends React.Component {
                                 />
 
                             ))}
-                        {/* </div> */}
                     </div>
                     <div className="arrowUp">
                     <Link to="/#portfolio">

@@ -10,8 +10,6 @@ class Nav extends React.Component {
       }
     
       listenScrollEvent = e => {
-        //   console.log(window.scrollY)
-    
         if (window.scrollY < 350) {
           this.setState({display: 'none'})
         } else {

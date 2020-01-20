@@ -1,9 +1,93 @@
 #contact {
-    background-color: lightsteelblue;
-    /* background-image: url("../images/back56.jpeg"); */
-     /* background-attachment: fixed; */
-     /* background-position: center; */
-     /* background-repeat: no-repeat; */
-     /* background-size: cover;  */
-    height: 80vh;
+    background-image: url("/images/drops.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
 }
+.contactTitle {
+    font-family: 'Revalia', cursive;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin: 250px 0 0 0;
+}
+.contactTitleSub{
+    color: rgb(0, 0, 0, .7);
+}
+.contactSubTitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0, .3);
+    font-size: 1.5em;
+}
+.contactInfoCol {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.contactInfoCol a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.mailIcon {
+    margin: 0 15px 50px 0;
+    color: rgb(0, 0, 0, .7);
+}
+.phoneIcon {
+    margin-right: 10px;
+    color: rgb(0, 0, 0, .7);
+}
+.phoneText {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+}
+.webLinksDiv{
+    margin-bottom: 30px;
+}
+.webLinksDiv a {
+    color: rgb(0, 0, 0, .7);
+    transition: color .2s;
+    margin: 10px;
+}
+.webLinksDiv a:hover {
+    color: rgb(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 991px) {
+    .contactTitle {
+        margin: 170px 0 0 0;
+    }
+}
+@media screen and (max-width: 510px) {
+    .contactTitle {
+        margin: 170px 0 0 0;
+        font-size: 3em;
+    }
+    .contactSubTitle {
+        font-size: 1em;
+    }
+    .contactInfoCol a {
+        font-size: 1.2em;
+    }
+    .mailIcon {
+        font-size: .8em;
+    }
+    .phoneIcon {
+        font-size: .8em;
+    }
+    .phoneText {
+        font-size: 1.2em;
+    }
+    .webLinksDiv a {
+        color: rgb(0, 0, 0, .7);
+        transition: color .2s;
+        margin: 10px;
+    }
+    .webLinksDiv a:hover {
+        color: rgb(0, 0, 0, .5);
+    }
+  }

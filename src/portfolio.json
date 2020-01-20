@@ -88,14 +88,5 @@
         "url": "https://jaab30.github.io/TriviaGame/",
         "github":"https://github.com/jaab30/TriviaGame",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap"]
-    },
-    {
-        "title":"Train Time",
-        "image":"images/portfolio/train.jpg",
-        "description":"This is a simple Web appliccation to calculate when the next train is coming by entering the train's first departure time and the frequency of the train's next departures. It uses Firebase to store the data and moment JS to format and to make the time calculations.",
-        "role":"Back and Front End Developer.",
-        "url": "https://jaab30.github.io/TrainTime/",
-        "github":"https://github.com/jaab30/TrainTime",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Firebase"]
     }
 ]

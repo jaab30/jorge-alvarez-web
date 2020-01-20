@@ -1,11 +1,9 @@
 import React from "react";
 import "./style.css"
-// import { Parallax } from 'react-scroll-parallax';
-// import { Parallax } from 'react-scroll-parallax';
 import { Parallax, Background } from 'react-parallax';
  
 
-function About(props) {
+function About() {
     
 
     return(
@@ -18,10 +16,7 @@ function About(props) {
             className="aboutParallax"
         >
             <section className="container-fluid" id="about">
-                    {/* <img className="imgAbout" src="/images/code.jpg"/> */}
-                {/* <div className="overlay"></div>
-                <div className="overlay2"></div> */}
-                
+                    
                 <div className="row topRowAbout">
                     <div className="col-md-12 text-center">
                         <Background className="bioDiv">
