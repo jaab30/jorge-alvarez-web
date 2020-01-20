@@ -47,3 +47,17 @@
        display: none;
    }
   }
+
+  @media screen and (max-width: 400px) {
+    .navItem{
+      width: 23%;
+      padding: 10px 0px;
+
+    }
+    .navItem-link{
+      font-size: 1em;
+    }
+    .navbarContainer{
+      padding: 0;
+    }
+  }

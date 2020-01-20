@@ -42,10 +42,14 @@ class IntroPage extends React.Component {
                 
                 <VideoBack />
                 <div className="content">
-                    <div className="typeWriter">
-                    Web Developer
+                    <div className="container-fluid headingIntro">
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <FadeDiv><h1 className="introTitle">Jorge Alvarez</h1></FadeDiv>
+                                <h3 className="introSubTitle">Web Developer</h3>
+                            </div>
+                        </div>
                     </div>
-                    <FadeDiv><h1 className="headingIntro">Jorge Alvarez</h1></FadeDiv>
                     <NavBlock
                     toContent={"/#about"}
                     classContent={"nav about"}

@@ -26,7 +26,7 @@ class Work extends React.Component {
                     <h2>Work</h2>
                 </div>  
             </header>
-            <section className="row mx-auto rowDiv">
+            <section className="row rowDiv">
                 {this.state.jobs.map((item, i)=>(
                     <WorkCard
                     key={i}

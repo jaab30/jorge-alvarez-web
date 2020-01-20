@@ -5,7 +5,7 @@
      /* background-position: center; */
      /* background-repeat: no-repeat; */
      /* background-size: cover;  */
-    /* height: 100vh; */
+    min-height: 100vh;
 }
 .aboutParallax {
     position: relative;
@@ -15,7 +15,7 @@
     background-repeat: no-repeat; */
     /* background-size: cover; */
     /* height: 100vh; */
-    width: 100%;
+    /* width: 100%; */
     /* padding: 40px; */
 }
 .container-fluid {
@@ -55,7 +55,7 @@ h2.h2bio {
 }
 
 .bioText {
-    position: relative; 
+    /* position: relative;  */
     font-family: 'Cairo', sans-serif; 
     font-size: 1.1em;
     color: white;
@@ -76,6 +76,45 @@ h2.h2bio {
     background-color: none;
     
 }
+
+@media screen and (max-width: 600px) {
+    .row.bottomRowAbout {
+        padding-top: 40px
+    }
+    .techIcon {
+        margin: 3px;
+        width: 40px;
+        
+    }
+    .bioText {
+        font-size: 1em;
+        padding: 10px;
+
+    }
+    h2.h2bio {
+        font-size: 2.5em;
+    }
+    
+    .bioImg {
+        width: 200px;
+    }
+    
+  }
+@media screen and (max-height: 600px) {
+    .topRowAbout {
+        height: 100vh;
+        /* padding-top: 20px */
+    }
+    h2.h2bio {
+        font-size: 2.5em;
+    }
+    
+    .bioImg {
+        width: 200px;
+    }
+
+  } 
+ 
 
 
 /* .overlay {

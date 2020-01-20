@@ -8,7 +8,7 @@ function WorkCard(props) {
 
 return(
 
-    <div className="col-md-4 classColumn">
+    <div className="col-md-6 col-lg-4 classColumn">
         <div className="cardDiv">
         {/* <img src={props.image} className="workImage" alt="Company Logo"/> */}
         <div className="workCardHeader">
