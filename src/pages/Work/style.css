@@ -3,7 +3,7 @@
 }
 
 #work {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 80px;
 }
 .rowDiv {
@@ -99,3 +99,11 @@ ul:not(.browser-default)>li {
     font-family: 'Cairo', sans-serif; 
     list-style-type: square;
 }
+
+
+@media screen and (max-width: 767px) {
+    .classColumn:nth-child(2){
+        border-left:none;
+        border-right: none;
+    }
+   }

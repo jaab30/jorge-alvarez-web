@@ -17,8 +17,8 @@ return(
                 <p> <strong>Role:</strong>  {props.role}</p>
                 <p> <strong>Description:</strong> {props.description} </p>
                 <div className="portfolioAnchorDiv">
-                    <a className="btn btn-success" href={props.url} target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i>Project URL</a>
-                    <a className="btn btn-warning" href={props.github} target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>Git Hub</a>
+                    <a className="btn btn-success" href={props.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-eye"></i>Project URL</a>
+                    <a className="btn btn-warning" href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>Git Hub</a>
                 </div>
             </div>
             

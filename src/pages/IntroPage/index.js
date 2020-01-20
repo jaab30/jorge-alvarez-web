@@ -43,7 +43,7 @@ class IntroPage extends React.Component {
                 <VideoBack />
                 <div className="content">
                     <div className="typeWriter">
-                    Full Stack Web Developer
+                    Web Developer
                     </div>
                     <FadeDiv><h1 className="headingIntro">Jorge Alvarez</h1></FadeDiv>
                     <NavBlock

@@ -1,6 +1,8 @@
 import React from "react";
-import projectsObj from "../../portfolio.json"
-import PortfolioCard from "../../components/PortfolioCard"
+import projectsObj from "../../portfolio.json";
+import PortfolioCard from "../../components/PortfolioCard";
+import { HashLink as Link } from 'react-router-hash-link';
+// import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 import "./style.css"
 
 
@@ -8,8 +10,23 @@ class Portfolio extends React.Component {
 
     state =  {
         projects: projectsObj,
-        webToolTitle: "Web Tools"
+        webToolTitle: "Web Tools",
+        display: "none"
     }
+
+    listenScrollEvent = e => {
+        //   console.log(window.scrollY)
+    
+        if (window.scrollY < 2800) {
+          this.setState({display: 'none'})
+        } else {
+          this.setState({display: 'block'})
+        }
+      }
+    
+      componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+      }
     
     onSubmit = (x) => {
         // this.setState({
@@ -37,7 +54,6 @@ class Portfolio extends React.Component {
     }
     
     render(){
-        console.log(this.state.projects)
         
         // webToolsSplit = this.state.projects.webTools.join(", ")
         return(
@@ -66,8 +82,9 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="row portfolioCont">
                         {/* <div className="col-4"> */}
-                            {this.state.projects.map(item=>(
+                            {this.state.projects.map((item, i)=>(
                                 <PortfolioCard 
+                                key={i}
                                 title={item.title}
                                 description={item.description}
                                 image={item.image}
@@ -80,7 +97,12 @@ class Portfolio extends React.Component {
                             ))}
                         {/* </div> */}
                     </div>
-                </div>  
+                    <div className="arrowUp">
+                    <Link to="/#portfolio">
+                    <i className="fas fa-arrow-up fa-3x"></i>
+                    </Link>
+                    </div>
+                </div> 
             </section>
 
             )

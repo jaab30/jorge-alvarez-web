@@ -20,8 +20,8 @@ return(
             <h5 className="workPosition">{props.position}</h5>
         </div>
         <ul className="">
-            {props.description.map(item=>(
-                <li className="">{item}</li>
+            {props.description.map((item, i)=>(
+                <li key={i} className="workDescription">{item}</li>
             ))}
         </ul>
         </div>

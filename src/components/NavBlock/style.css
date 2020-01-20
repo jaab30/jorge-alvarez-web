@@ -65,3 +65,12 @@
 .contact:hover {
     background-color: rgb(0, 0, 0, 0.1);
   }
+
+
+  @media screen and (max-width: 600px) {
+    .navText{
+      font-size: 1em;
+
+    }
+    
+  }

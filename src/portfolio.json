@@ -63,15 +63,6 @@
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap"]
     },
     {
-        "title":"Friend Finder",
-        "image":"images/portfolio/friendfinder.jpg",
-        "description":"This application resembles a partner matching website. The user will answer 10 questions and the app will find the best match by comparing the user's answers with the entries in the 'friends.js file.'' The result will show as a pop up modal with the name and picture of the 'Best Match'.",
-        "role":"Back and Front End Developer.",
-        "url": "https://secure-forest-83146.herokuapp.com/",
-        "github":"https://github.com/jaab30/friendfinder",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "NODE", "Express", "REST API"]
-    },
-    {
         "title":"Eat-Da-Burger",
         "image":"images/portfolio/burger.jpg",
         "description":"This is a Node Express application that uses Handlebars. All the data is stored into a dabase and retrieved using mysql queries. It also uses ORM statements for the sql queries. The application let's the user enter a burger name and have the option to 'Devour' the burger by clicking on the 'Devour' button. The burger name then move to the 'Devour' section and it also has an option to delete the burger from the page and the database.",
