@@ -76,7 +76,7 @@
         "image":"images/portfolio/portfolio.jpg",
         "description":"This web application is a simple portfolio created in React. The app has five pages. Uses Parallax and smooth page scrolling. The Project page will filter projects by cartegory (web tools).",
         "role":"Front End Developer.",
-        "url": "https://jorge-alvarez-web.herokuapp.com/",
+        "url": "https://jaab30.github.io/react-ja-porfolio",
         "github":"https://github.com/jaab30/react-ja-porfolio",
         "webTools": ["React", "JavaScript", "CSS3", "Bootstrap"]
     },
