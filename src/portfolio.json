@@ -24,7 +24,7 @@
         "role": "Back and Front End Lead Developer (team of 4).",
         "url": "https://powerful-earth-43399.herokuapp.com/",
         "github":"https://github.com/jaab30/recipe_search",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "REST API", "Full_CRUD", "Sequelize", "MySQL", "Restful_APIs" ]
+        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "Full_CRUD", "Sequelize", "MySQL", "Restful_APIs" ]
     },
     {
         "title":"Clicky Game",
@@ -33,7 +33,7 @@
         "role":"Front End Developer.",
         "url": "https://jaab30.github.io/clicky-game-app/",
         "github":"https://github.com/jaab30/clicky-game-app",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "JSX", "NODE", "Express", "React" ]
+        "webTools": ["React", "JSX", "CSS3", "JavaScript",  "NODE"]
     },
     {
         "title":"Google Books Search",
@@ -42,7 +42,7 @@
         "role":"Back and Front End Developer.",
         "url": "https://google-search-react.herokuapp.com/books",
         "github":"https://github.com/jaab30/google-book-search",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "JSX", "NODE", "Express", "REST API", "Full_CRUD", "MongoDB", "React", "MERN", "Restful_APIs" ]
+        "webTools": ["React", "JSX", "CSS3", "JavaScript", "NODE", "Express", "Full_CRUD", "MongoDB", "React", "MERN", "Restful_APIs" ]
     },
     {
         "title":"RM Scraper",
@@ -51,7 +51,7 @@
         "role":"Back and Front End Developer.",
         "url": "https://mongo-scraper-ja.herokuapp.com/",
         "github":"https://github.com/jaab30/mongo_scraper",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Handlebars", "NODE", "Express", "REST API", "Full_CRUD", "MongoDB", "Restful_APIs" ]
+        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Handlebars", "NODE", "Express", "Full_CRUD", "MongoDB", "Restful_APIs" ]
     },
     {
         "title":"Event Concierge",
@@ -69,16 +69,16 @@
         "role":"Back and Front End Developer.",
         "url": "https://boiling-peak-13287.herokuapp.com/",
         "github":"https://github.com/jaab30/burger",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "REST API", "MySQL", "Restful_APIs" ]
+        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "MySQL", "Restful_APIs" ]
     },
     {
-        "title":"GifTastic",
-        "image":"images/portfolio/giphy.jpg",
-        "description":"A web application that searches for any GIF file within the Giphy website. It accesses the API site and displays the user’s search results. After the data is displayed, user can click on the images and change from a 'still' image to an 'animated gif image'. There is also a 'Favorites Star' button under each image. The 'Favorites' button will display the images on the right side under the 'Favorites' section.",
+        "title":"React Web Portfolio",
+        "image":"images/portfolio/portfolio.jpg",
+        "description":"This web application is a simple portfolio created in React. The app has five pages. Uses Parallax and smooth page scrolling. The Project page will filter projects by cartegory (web tools).",
         "role":"Front End Developer.",
-        "url": "https://jaab30.github.io/Giphy-API/",
-        "github":"https://github.com/jaab30/Giphy-API",
-        "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "API"]
+        "url": "https://jorge-alvarez-web.herokuapp.com/",
+        "github":"https://github.com/jaab30/react-ja-porfolio",
+        "webTools": ["React", "JavaScript", "CSS3", "Bootstrap"]
     },
     {
         "title":"Trivia Game",

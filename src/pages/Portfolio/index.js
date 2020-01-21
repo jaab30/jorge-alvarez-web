@@ -57,6 +57,8 @@ class Portfolio extends React.Component {
                 webToolTitle = "NODE / Express";
             } else if (x === "Full_CRUD"){
                 webToolTitle = "C.R.U.D.";
+            } else if (x === "Restful_APIs"){
+                webToolTitle = "Restful APIs";
             } else {
                 webToolTitle = x;
             }
