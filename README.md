@@ -1,7 +1,7 @@
 
 ## React Web Portfolio
 
-This web application is simple portfolio created in React. The app has five pages. Uses Parallax and smooth page scrolling. The Porject page will filter porjects by cartegory.
+This web application is a simple portfolio created in React. The app has five pages. Uses Parallax and smooth page scrolling. The Project page will filter projects by cartegory (web tools).
 
 Web Tools: React, Javascript, JSX, CSS3, Bootstrap.
 
