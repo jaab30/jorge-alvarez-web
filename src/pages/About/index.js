@@ -20,7 +20,7 @@ function About() {
                 <div className="row topRowAbout">
                     <div className="col-md-12 text-center">
                         <Background className="bioDiv">
-                            <img className="bioImg" src="/images/JA_Profile_Pix.jpg" alt="Profile Pix" />
+                            <img className="bioImg" src="images/JA_Profile_Pix.jpg" alt="Profile Pix" />
                         </Background>
                         <div className="aboutTitle">
                             <h2 className="h2bio">About Me</h2>
@@ -50,21 +50,21 @@ function About() {
                                 I’ve learned to adapt to new situations and I’ve been able to excel at the new challenges.!
                             </p>
                             <div className="techImg">
-                                <img className="techIcon" src="/images/tech/html5v1.png" alt="icon" title="HTML5"/>
-                                <img className="techIcon" src="/images/tech/css3v1.png" alt="icon" title="CSS3"/>
-                                <img className="techIcon" src="/images/tech/javascriptv1.png" alt="icon" title="JavdScript"/>
-                                <img className="techIcon" src="/images/tech/jqueryv1.png" alt="icon" title="jQuery"/>
-                                <img className="techIcon" src="/images/tech/nodev1.png" alt="icon" title="NODE"/>
-                                <img className="techIcon" src="/images/tech/expressv1.png" alt="icon" title="Express"/>
-                                <img className="techIcon" src="/images/tech/ajaxv1.png" alt="icon" title="Ajax"/>
-                                <img className="techIcon" src="/images/tech/apiv1.png" alt="icon" title="Restful Api"/>
-                                <img className="techIcon" src="/images/tech/crud.png" alt="icon" title="CRUD"/>
-                                <img className="techIcon" src="/images/tech/reactv1.png" alt="icon" title="React"/>
-                                <img className="techIcon" src="/images/tech/jsxv1.png" alt="icon" title="JSX"/>
-                                <img className="techIcon" src="/images/tech/php1.png" alt="icon" title="PHP"/>
-                                <img className="techIcon" src="/images/tech/laravel.png" alt="icon" title="Laravel"/>
-                                <img className="techIcon" src="/images/tech/mysqlv1.png" alt="icon" title="MySQL"/>
-                                <img className="techIcon" src="/images/tech/mongodbv1.png" alt="icon" title="MongoDB"/>
+                                <img className="techIcon" src="images/tech/html5v1.png" alt="icon" title="HTML5"/>
+                                <img className="techIcon" src="images/tech/css3v1.png" alt="icon" title="CSS3"/>
+                                <img className="techIcon" src="images/tech/javascriptv1.png" alt="icon" title="JavdScript"/>
+                                <img className="techIcon" src="images/tech/jqueryv1.png" alt="icon" title="jQuery"/>
+                                <img className="techIcon" src="images/tech/nodev1.png" alt="icon" title="NODE"/>
+                                <img className="techIcon" src="images/tech/expressv1.png" alt="icon" title="Express"/>
+                                <img className="techIcon" src="images/tech/ajaxv1.png" alt="icon" title="Ajax"/>
+                                <img className="techIcon" src="images/tech/apiv1.png" alt="icon" title="Restful Api"/>
+                                <img className="techIcon" src="images/tech/crud.png" alt="icon" title="CRUD"/>
+                                <img className="techIcon" src="images/tech/reactv1.png" alt="icon" title="React"/>
+                                <img className="techIcon" src="images/tech/jsxv1.png" alt="icon" title="JSX"/>
+                                <img className="techIcon" src="images/tech/php1.png" alt="icon" title="PHP"/>
+                                <img className="techIcon" src="images/tech/laravel.png" alt="icon" title="Laravel"/>
+                                <img className="techIcon" src="images/tech/mysqlv1.png" alt="icon" title="MySQL"/>
+                                <img className="techIcon" src="images/tech/mongodbv1.png" alt="icon" title="MongoDB"/>
                             </div>
                         </div>
                     </div>

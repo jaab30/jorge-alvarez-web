@@ -8,7 +8,7 @@ import Main from "./pages/Main"
 function App() {
   return (
     
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container>
         <Route exact path="/" component={Main} />
         </Container>
