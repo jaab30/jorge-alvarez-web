@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-ja-porfolio/static/css/main.1f743732.chunk.css",
-    "main.js": "/react-ja-porfolio/static/js/main.0cef78a7.chunk.js",
-    "main.js.map": "/react-ja-porfolio/static/js/main.0cef78a7.chunk.js.map",
+    "main.css": "/react-ja-porfolio/static/css/main.85c23208.chunk.css",
+    "main.js": "/react-ja-porfolio/static/js/main.1c770bed.chunk.js",
+    "main.js.map": "/react-ja-porfolio/static/js/main.1c770bed.chunk.js.map",
     "runtime-main.js": "/react-ja-porfolio/static/js/runtime-main.2343655c.js",
     "runtime-main.js.map": "/react-ja-porfolio/static/js/runtime-main.2343655c.js.map",
     "static/css/2.7ec30cc4.chunk.css": "/react-ja-porfolio/static/css/2.7ec30cc4.chunk.css",
     "static/js/2.13dd7207.chunk.js": "/react-ja-porfolio/static/js/2.13dd7207.chunk.js",
     "static/js/2.13dd7207.chunk.js.map": "/react-ja-porfolio/static/js/2.13dd7207.chunk.js.map",
     "index.html": "/react-ja-porfolio/index.html",
-    "precache-manifest.3522595ccaa71a8e81e7b847bc9e6eb1.js": "/react-ja-porfolio/precache-manifest.3522595ccaa71a8e81e7b847bc9e6eb1.js",
+    "precache-manifest.3db772b5bfa4bc81b524014ce036d376.js": "/react-ja-porfolio/precache-manifest.3db772b5bfa4bc81b524014ce036d376.js",
     "service-worker.js": "/react-ja-porfolio/service-worker.js",
     "static/css/2.7ec30cc4.chunk.css.map": "/react-ja-porfolio/static/css/2.7ec30cc4.chunk.css.map",
-    "static/css/main.1f743732.chunk.css.map": "/react-ja-porfolio/static/css/main.1f743732.chunk.css.map",
-    "static/media/code.jpg": "/react-ja-porfolio/static/media/code.6f9a5acf.jpg",
-    "static/media/code3.jpg": "/react-ja-porfolio/static/media/code3.88780b85.jpg",
-    "static/media/style.css": "/react-ja-porfolio/static/media/geometric.c07c5e1f.jpg"
+    "static/css/main.85c23208.chunk.css.map": "/react-ja-porfolio/static/css/main.85c23208.chunk.css.map",
+    "static/media/code3Check.jpg": "/react-ja-porfolio/static/media/code3Check.925fa726.jpg",
+    "static/media/codeCheck.jpg": "/react-ja-porfolio/static/media/codeCheck.1def81c9.jpg",
+    "static/media/style.css": "/react-ja-porfolio/static/media/geometricCheck.7b6e04be.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2343655c.js",
     "static/css/2.7ec30cc4.chunk.css",
     "static/js/2.13dd7207.chunk.js",
-    "static/css/main.1f743732.chunk.css",
-    "static/js/main.0cef78a7.chunk.js"
+    "static/css/main.85c23208.chunk.css",
+    "static/js/main.1c770bed.chunk.js"
   ]
 }
