@@ -30,8 +30,8 @@ function About() {
                 <div className="row justify-content-center bottomRowAbout">
                     <div className="col-md-9">
                         <div className="bioTextDiv">
-                            <p className="bioText"> A Web developer who has been involved with computers and technology for over 20 years. I have an extensive background in the education field as well as dealing with troubleshooting issues and decision making situations.<br></br>
-                            I’ve always been captivated by the world of coding and web applications. That’s why I completed the Full Stack Web Development Coding Bootcamp program at the University of Central Florida and have been working in the Web Development field since. <br></br>
+                            <p className="bioText"> A Web developer who has been involved with computers and technology for over 20 years. I have an extensive background in the education field as well as dealing with troubleshooting issues and decision making situations.<br></br><br></br>
+                            I’ve always been captivated by the world of coding and web applications. That’s why I completed the Full Stack Web Development Coding Bootcamp program at the University of Central Florida and have been working in the Web Development field since. <br></br><br></br>
                             I believe that good communication is vital for success as well as being able to work individually or with others. I’ve learned to adapt to new situations and I’ve been able to excel at the new challenges.
                             </p>
                             <div className="techImg">
