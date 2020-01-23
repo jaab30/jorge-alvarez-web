@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-ja-porfolio/static/css/main.85c23208.chunk.css",
-    "main.js": "/react-ja-porfolio/static/js/main.1c770bed.chunk.js",
-    "main.js.map": "/react-ja-porfolio/static/js/main.1c770bed.chunk.js.map",
-    "runtime-main.js": "/react-ja-porfolio/static/js/runtime-main.2343655c.js",
-    "runtime-main.js.map": "/react-ja-porfolio/static/js/runtime-main.2343655c.js.map",
-    "static/css/2.7ec30cc4.chunk.css": "/react-ja-porfolio/static/css/2.7ec30cc4.chunk.css",
-    "static/js/2.13dd7207.chunk.js": "/react-ja-porfolio/static/js/2.13dd7207.chunk.js",
-    "static/js/2.13dd7207.chunk.js.map": "/react-ja-porfolio/static/js/2.13dd7207.chunk.js.map",
-    "index.html": "/react-ja-porfolio/index.html",
-    "precache-manifest.3db772b5bfa4bc81b524014ce036d376.js": "/react-ja-porfolio/precache-manifest.3db772b5bfa4bc81b524014ce036d376.js",
-    "service-worker.js": "/react-ja-porfolio/service-worker.js",
-    "static/css/2.7ec30cc4.chunk.css.map": "/react-ja-porfolio/static/css/2.7ec30cc4.chunk.css.map",
-    "static/css/main.85c23208.chunk.css.map": "/react-ja-porfolio/static/css/main.85c23208.chunk.css.map",
-    "static/media/code3Check.jpg": "/react-ja-porfolio/static/media/code3Check.925fa726.jpg",
-    "static/media/codeCheck.jpg": "/react-ja-porfolio/static/media/codeCheck.1def81c9.jpg",
-    "static/media/style.css": "/react-ja-porfolio/static/media/geometricCheck.7b6e04be.jpg"
+    "main.css": "/jorge-alvarez-web/static/css/main.d2044e2d.chunk.css",
+    "main.js": "/jorge-alvarez-web/static/js/main.90e79b1f.chunk.js",
+    "main.js.map": "/jorge-alvarez-web/static/js/main.90e79b1f.chunk.js.map",
+    "runtime-main.js": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js",
+    "runtime-main.js.map": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js.map",
+    "static/css/2.7ec30cc4.chunk.css": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css",
+    "static/js/2.288d26d6.chunk.js": "/jorge-alvarez-web/static/js/2.288d26d6.chunk.js",
+    "static/js/2.288d26d6.chunk.js.map": "/jorge-alvarez-web/static/js/2.288d26d6.chunk.js.map",
+    "index.html": "/jorge-alvarez-web/index.html",
+    "precache-manifest.8211544e1e604abdd1d8386c277f76a0.js": "/jorge-alvarez-web/precache-manifest.8211544e1e604abdd1d8386c277f76a0.js",
+    "service-worker.js": "/jorge-alvarez-web/service-worker.js",
+    "static/css/2.7ec30cc4.chunk.css.map": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css.map",
+    "static/css/main.d2044e2d.chunk.css.map": "/jorge-alvarez-web/static/css/main.d2044e2d.chunk.css.map",
+    "static/media/code3Check.jpg": "/jorge-alvarez-web/static/media/code3Check.925fa726.jpg",
+    "static/media/codeCheck.jpg": "/jorge-alvarez-web/static/media/codeCheck.1def81c9.jpg",
+    "static/media/style.css": "/jorge-alvarez-web/static/media/geometricCheck.7b6e04be.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2343655c.js",
+    "static/js/runtime-main.4ba2d674.js",
     "static/css/2.7ec30cc4.chunk.css",
-    "static/js/2.13dd7207.chunk.js",
-    "static/css/main.85c23208.chunk.css",
-    "static/js/main.1c770bed.chunk.js"
+    "static/js/2.288d26d6.chunk.js",
+    "static/css/main.d2044e2d.chunk.css",
+    "static/js/main.90e79b1f.chunk.js"
   ]
 }
