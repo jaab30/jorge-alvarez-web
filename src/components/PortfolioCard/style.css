@@ -18,7 +18,7 @@
 
 .portfolioImage {
     width: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     opacity: .8;
     transition: filter .6s, opacity .4s;
     

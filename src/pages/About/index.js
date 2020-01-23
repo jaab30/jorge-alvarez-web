@@ -10,7 +10,7 @@ function About() {
 
         <Parallax
             blur={10}
-            bgImage={require('./images/code3.jpg')}
+            bgImage={require('./images/code3Check.jpg')}
             bgImageAlt="background"
             strength={500}
             className="aboutParallax"

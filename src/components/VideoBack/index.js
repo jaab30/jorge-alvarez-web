@@ -7,16 +7,6 @@ class VideoBack extends React.Component {
         videoSrc: "videos/MilkyWay.mp4"
     }
 
-    // componentDidMount() {
-    //     document.getElementById('myVideo').addEventListener('ended', this.changeVideo, false);
-    //   }
-
-    //   changeVideo = () => {
-    //       this.setState({
-    //           videoSrc: "images/atomGif1.gif"
-    //       })
-    //       console.log(this.state.videoSrc)
-    //   }
 
       render() {
             return(

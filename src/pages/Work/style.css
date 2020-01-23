@@ -4,6 +4,7 @@
 
 #work {
     padding-top: 80px;
+    min-height: 100vh;
 }
 .aboutParallax {
     position: relative; 
