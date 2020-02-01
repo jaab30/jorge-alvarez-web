@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jorge-alvarez-web/static/css/main.d2044e2d.chunk.css",
-    "main.js": "/jorge-alvarez-web/static/js/main.4a507307.chunk.js",
-    "main.js.map": "/jorge-alvarez-web/static/js/main.4a507307.chunk.js.map",
+    "main.css": "/jorge-alvarez-web/static/css/main.e625e762.chunk.css",
+    "main.js": "/jorge-alvarez-web/static/js/main.2ae0ec30.chunk.js",
+    "main.js.map": "/jorge-alvarez-web/static/js/main.2ae0ec30.chunk.js.map",
     "runtime-main.js": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js",
     "runtime-main.js.map": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js.map",
     "static/css/2.7ec30cc4.chunk.css": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css",
-    "static/js/2.288d26d6.chunk.js": "/jorge-alvarez-web/static/js/2.288d26d6.chunk.js",
-    "static/js/2.288d26d6.chunk.js.map": "/jorge-alvarez-web/static/js/2.288d26d6.chunk.js.map",
+    "static/js/2.6c18b753.chunk.js": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js",
+    "static/js/2.6c18b753.chunk.js.map": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js.map",
     "index.html": "/jorge-alvarez-web/index.html",
-    "precache-manifest.b1242d6d572ab608d9870115e162969b.js": "/jorge-alvarez-web/precache-manifest.b1242d6d572ab608d9870115e162969b.js",
+    "precache-manifest.d59134a6c62e138d274858e31cc6d89f.js": "/jorge-alvarez-web/precache-manifest.d59134a6c62e138d274858e31cc6d89f.js",
     "service-worker.js": "/jorge-alvarez-web/service-worker.js",
     "static/css/2.7ec30cc4.chunk.css.map": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css.map",
-    "static/css/main.d2044e2d.chunk.css.map": "/jorge-alvarez-web/static/css/main.d2044e2d.chunk.css.map",
+    "static/css/main.e625e762.chunk.css.map": "/jorge-alvarez-web/static/css/main.e625e762.chunk.css.map",
     "static/media/code3Check.jpg": "/jorge-alvarez-web/static/media/code3Check.925fa726.jpg",
     "static/media/codeCheck.jpg": "/jorge-alvarez-web/static/media/codeCheck.1def81c9.jpg",
-    "static/media/style.css": "/jorge-alvarez-web/static/media/geometricCheck.7b6e04be.jpg"
+    "static/media/style.css": "/jorge-alvarez-web/static/media/milky.b8a01a52.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ba2d674.js",
     "static/css/2.7ec30cc4.chunk.css",
-    "static/js/2.288d26d6.chunk.js",
-    "static/css/main.d2044e2d.chunk.css",
-    "static/js/main.4a507307.chunk.js"
+    "static/js/2.6c18b753.chunk.js",
+    "static/css/main.e625e762.chunk.css",
+    "static/js/main.2ae0ec30.chunk.js"
   ]
 }
