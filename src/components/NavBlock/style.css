@@ -25,7 +25,7 @@
     color: rgb(255, 255, 255, 0.7); 
     padding: 10px;
     transition: padding .8s, background-color .8s, color .8s;
-    font-family: 'Revalia', cursive;
+    font-family: 'Revalia', sans-serif;
     font-size: 1.5em;
 }
 
