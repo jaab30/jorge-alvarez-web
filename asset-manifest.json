@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jorge-alvarez-web/static/css/main.e625e762.chunk.css",
-    "main.js": "/jorge-alvarez-web/static/js/main.2ae0ec30.chunk.js",
-    "main.js.map": "/jorge-alvarez-web/static/js/main.2ae0ec30.chunk.js.map",
+    "main.css": "/jorge-alvarez-web/static/css/main.18e87eee.chunk.css",
+    "main.js": "/jorge-alvarez-web/static/js/main.c6b8f4f9.chunk.js",
+    "main.js.map": "/jorge-alvarez-web/static/js/main.c6b8f4f9.chunk.js.map",
     "runtime-main.js": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js",
     "runtime-main.js.map": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js.map",
     "static/css/2.7ec30cc4.chunk.css": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css",
     "static/js/2.6c18b753.chunk.js": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js",
     "static/js/2.6c18b753.chunk.js.map": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js.map",
     "index.html": "/jorge-alvarez-web/index.html",
-    "precache-manifest.ad011b8b8c8451844916a01050952437.js": "/jorge-alvarez-web/precache-manifest.ad011b8b8c8451844916a01050952437.js",
+    "precache-manifest.a79f92c8a299adb0f218366bb5e4e48c.js": "/jorge-alvarez-web/precache-manifest.a79f92c8a299adb0f218366bb5e4e48c.js",
     "service-worker.js": "/jorge-alvarez-web/service-worker.js",
     "static/css/2.7ec30cc4.chunk.css.map": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css.map",
-    "static/css/main.e625e762.chunk.css.map": "/jorge-alvarez-web/static/css/main.e625e762.chunk.css.map",
-    "static/media/code3Check.jpg": "/jorge-alvarez-web/static/media/code3Check.925fa726.jpg",
-    "static/media/codeCheck.jpg": "/jorge-alvarez-web/static/media/codeCheck.1def81c9.jpg",
+    "static/css/main.18e87eee.chunk.css.map": "/jorge-alvarez-web/static/css/main.18e87eee.chunk.css.map",
+    "static/media/code3Check.jpg": "/jorge-alvarez-web/static/media/code3Check.8d315ac0.jpg",
+    "static/media/codeCheck2.jpg": "/jorge-alvarez-web/static/media/codeCheck2.a7f32620.jpg",
     "static/media/style.css": "/jorge-alvarez-web/static/media/milky.b8a01a52.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ba2d674.js",
     "static/css/2.7ec30cc4.chunk.css",
     "static/js/2.6c18b753.chunk.js",
-    "static/css/main.e625e762.chunk.css",
-    "static/js/main.2ae0ec30.chunk.js"
+    "static/css/main.18e87eee.chunk.css",
+    "static/js/main.c6b8f4f9.chunk.js"
   ]
 }
