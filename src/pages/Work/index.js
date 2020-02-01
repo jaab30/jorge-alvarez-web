@@ -15,7 +15,7 @@ class Work extends React.Component {
         return(
             <Parallax
             blur={5}
-            bgImage={require('./images/codeCheck.jpg')}
+            bgImage={require('./images/codeCheck2.jpg')}
             bgImageAlt="background"
             strength={100}
             className="aboutParallax"
