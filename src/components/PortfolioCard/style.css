@@ -1,7 +1,4 @@
-@keyframes slide-down {
-    0% { display: none; opacity: 0; transform: translateY(0); }   
-  100% { display: "block"; opacity: 1; transform: translateY(0); }
-}
+
 .portfolioRowDiv {
     color: white;
     background-color: rgb(0, 0, 0, .5);
@@ -12,13 +9,13 @@
 }
 
 .portfolioImageDiv {
-    padding: 20px 10px;
+    padding: 10px 10px;
     filter: blur(2);
 }
 
 .portfolioImage {
     width: 100%;
-    /* min-height: 100%; */
+    height: 100%;
     opacity: .8;
     transition: filter .6s, opacity .4s;
     

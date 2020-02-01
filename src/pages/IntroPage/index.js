@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components';
 import { flash } from 'react-animations'
 import "./style.css";
 
-import VideoBack from "../../components/VideoBack"
+// import VideoBack from "../../components/VideoBack"
 import NavBlock from "../../components/NavBlock";
 
 const fadeInAnimation = keyframes`${flash}`;
@@ -21,7 +21,7 @@ class IntroPage extends React.Component {
         return (
             <div id="intro" className="introPage">
                 
-                <VideoBack />
+                {/* <VideoBack /> */}
                 <div className="content">
                     <div className="container-fluid headingIntro">
                         <div className="row">

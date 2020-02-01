@@ -8,10 +8,10 @@ function PortfolioCard(props) {
 return(
         // <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
         <div className="row portfolioRowDiv">
-            <div className="col-lg-3 portfolioImageDiv">
+            <div className="col-lg-4 portfolioImageDiv">
             <a className="portfolioImageLink" href={props.url} target="_blank" rel="noopener noreferrer"><img className="portfolioImage" src={props.image} alt={props.title}/></a>
             </div>
-            <div className="col-lg-9 portfolioContentDiv">
+            <div className="col-lg-8 portfolioContentDiv">
                 <h3 className="portfolioTitle">{props.title}</h3>
                 <p> <strong>Web Tools:</strong>  {props.webTools} </p>
                 <p> <strong>Role:</strong>  {props.role}</p>

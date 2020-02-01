@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: Prosto One;
+    src: url("../fonts/ProstoOne-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: Roboto Condensed;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+  }
+
+@font-face {
+    font-family: Cairo;
+    src: url("../fonts/Cairo-Regular.ttf");
+  }
+  
+@font-face {
+    font-family: Revalia;
+    src: url("../fonts/Revalia-Regular.ttf");
+  }
+
+@font-face {
+  font-family: Oswald;
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
