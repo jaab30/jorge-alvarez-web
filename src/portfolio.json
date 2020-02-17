@@ -54,6 +54,15 @@
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Handlebars", "NODE", "Express", "Full_CRUD", "MongoDB", "Restful_APIs" ]
     },
     {
+        "title":"Employee Management List",
+        "image":"images/portfolio/employee.jpg",
+        "description":"This is a simple web application that renders random users from: \"randomuser.me\" API when the application first starts. This application is created using React Hooks and let the user search by Last Name. It updates the results everytime the user enters a letter on the search input field. It also sorts employees by First Name, Last Name and Age",
+        "role":"In charge of the design, layout and functionality of the Front End using React, JSX, Bootstrap and CSS.",
+        "url": "https://jaab30.github.io/employee-management",
+        "github":"https://github.com/jaab30/employee-management",
+        "webTools": ["React", "JSX", "CSS3", "JavaScript", "NODE", "Server-Side API"]
+    },
+    {
         "title":"Event Concierge",
         "image":"images/portfolio/project1.jpg",
         "description":"A web application that searches all types of events in the United States. User can also buy tickets and book an UBER ride from within the application. It also let the user saves favorite searches on their Wish List area to be accessed at any time.",
