@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jorge-alvarez-web/static/css/main.87cc790f.chunk.css",
-    "main.js": "/jorge-alvarez-web/static/js/main.c6b8f4f9.chunk.js",
-    "main.js.map": "/jorge-alvarez-web/static/js/main.c6b8f4f9.chunk.js.map",
+    "main.js": "/jorge-alvarez-web/static/js/main.d4799057.chunk.js",
+    "main.js.map": "/jorge-alvarez-web/static/js/main.d4799057.chunk.js.map",
     "runtime-main.js": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js",
     "runtime-main.js.map": "/jorge-alvarez-web/static/js/runtime-main.4ba2d674.js.map",
     "static/css/2.7ec30cc4.chunk.css": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css",
     "static/js/2.6c18b753.chunk.js": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js",
     "static/js/2.6c18b753.chunk.js.map": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js.map",
     "index.html": "/jorge-alvarez-web/index.html",
-    "precache-manifest.bc63e7516b0fb45caf772dd96d08d135.js": "/jorge-alvarez-web/precache-manifest.bc63e7516b0fb45caf772dd96d08d135.js",
+    "precache-manifest.366a76bb68a53262c8ffd8ea2dd1d210.js": "/jorge-alvarez-web/precache-manifest.366a76bb68a53262c8ffd8ea2dd1d210.js",
     "service-worker.js": "/jorge-alvarez-web/service-worker.js",
     "static/css/2.7ec30cc4.chunk.css.map": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css.map",
     "static/css/main.87cc790f.chunk.css.map": "/jorge-alvarez-web/static/css/main.87cc790f.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.7ec30cc4.chunk.css",
     "static/js/2.6c18b753.chunk.js",
     "static/css/main.87cc790f.chunk.css",
-    "static/js/main.c6b8f4f9.chunk.js"
+    "static/js/main.d4799057.chunk.js"
   ]
 }
