@@ -3,7 +3,7 @@
         "title":"Emma Rose Baby Boutique",
         "image":"images/portfolio/emmarose.jpg",
         "description":"This web application is an e-commerce website that displays and sales Handmade Children Clothing for Infants and Toddlers. This is a fully functional ecommerce web application that features: product browsing by category and keyword, user login, user information entry and update, favorite product selection, product review, shopping cart, checkout and payment gateway using Paypal Express.",
-        "role":"Back and Front End Developer.",
+        "role":" In charge of the design, layout and functionality of the Front End using HTML, CSS, Javascript, jQuery and Bootstrap. Also in charge of setting all Front and Back end routes to interact with the database (MySQL) using PHP and Laravel framework.",
         "url": "https://emmarosebabyboutique.com/",
         "github":"https://github.com/jaab30/emmaroseproject",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "PHP", "Laravel", "MySQL", "Full_CRUD" ]
@@ -12,7 +12,7 @@
         "title":"Simple Todo List - CRUD",
         "image":"images/portfolio/todolistNode.jpg",
         "description":"This web application is a simple but very professional looking Todo List. Fully CRUD using NodeJs, Express, Handlebars and Sequelized (MySQL). Use MVC model folder structure. Simply enter your database credentials in the '.env' file and it is ready to use.",
-        "role":"Back and Front End Developer.",
+        "role":"In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery and Materialize. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database using MySQL. Setup for the MySQL database with table schemes and seeds.",
         "url": "https://todolist-crud-node.herokuapp.com/",
         "github":"https://github.com/jaab30/todolist",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "NODE", "Express", "Handlebars", "Full_CRUD", "Sequelize", "MySQL", "Restful_APIs"]
@@ -21,7 +21,7 @@
         "title":"Intake - Low Carb Recipe Search",
         "image":"images/portfolio/project2.jpg",
         "description":"The main functionality for this web application is to perform searches for 'Low Carb' recipes. In addition, the application will show the user 'Featured and Trendy Recipes'. The user will also be able to 'Save' favorite recipes to the 'favorite List' as well as being able to submit their own recipe for other users to try.",
-        "role": "Back and Front End Lead Developer (team of 4).",
+        "role": "In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database using MySQL. Setup for the MySQL database with table schemes and seeds.",
         "url": "https://powerful-earth-43399.herokuapp.com/",
         "github":"https://github.com/jaab30/recipe_search",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "Full_CRUD", "Sequelize", "MySQL", "Restful_APIs" ]
@@ -30,16 +30,16 @@
         "title":"Clicky Game",
         "image":"images/portfolio/clicky.jpg",
         "description":"This web application is a game where the user clicks on the images and get a score depending on the rules of the game. When the application starts, it displays a message for the user with the instructions of the game as well as it displays a set of images. The main rule of the game is to click on the images one at a time and to make sure not to click on the same image twice in a row. When user clicks on an image, the application shuffles the images.",
-        "role":"Front End Developer.",
-        "url": "https://jaab30.github.io/clicky-game-app/",
-        "github":"https://github.com/jaab30/clicky-game-app",
-        "webTools": ["React", "JSX", "CSS3", "JavaScript",  "NODE"]
+        "role":"In charge of the design, layout and functionality of the Front End using React, JSX and CSS.",
+        "url": "https://jaab30.github.io/clicky-game-reacthooks/",
+        "github":"https://github.com/jaab30/clicky-game-reacthooks",
+        "webTools": ["React", "JSX", "CSS3", "JavaScript", "NODE"]
     },
     {
         "title":"Google Books Search",
         "image":"images/portfolio/googlesearch.jpg",
         "description":"The main functionality for this web application is to perform searches for Books using Google Book's API. In addition, the application will let the user save their favorite books to the user's 'Saved Book' page where the user will be able to view the books or delete them from the 'Saved Books' page.",
-        "role":"Back and Front End Developer.",
+        "role":"Full Design and functionality of this full MERN stack application.  In charge of the design, layout and functionality of the Front End using React, JSX and CSS. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database. Setting all Models and interaction with the database using MongoDB.",
         "url": "https://google-search-react.herokuapp.com/books",
         "github":"https://github.com/jaab30/google-book-search",
         "webTools": ["React", "JSX", "CSS3", "JavaScript", "NODE", "Express", "Full_CRUD", "MongoDB", "React", "MERN", "Restful_APIs" ]
@@ -48,7 +48,7 @@
         "title":"RM Scraper",
         "image":"images/portfolio/scraper.jpg",
         "description":"The main function for this application is to 'Scrape' articles from a website and display them on the user's page. This application is scraping articles from the 'Real Madrid' website. Real Madrid is an entity that owns soccer and basketball teams from the spanish league and the articles are related to what's going on with those teams.",
-        "role":"Back and Front End Developer.",
+        "role":"In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database. Setting all Models and interaction with the database using MongoDB.",
         "url": "https://mongo-scraper-ja.herokuapp.com/",
         "github":"https://github.com/jaab30/mongo_scraper",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "Handlebars", "NODE", "Express", "Full_CRUD", "MongoDB", "Restful_APIs" ]
@@ -66,7 +66,7 @@
         "title":"Eat-Da-Burger",
         "image":"images/portfolio/burger.jpg",
         "description":"This is a Node Express application that uses Handlebars. All the data is stored into a dabase and retrieved using mysql queries. It also uses ORM statements for the sql queries. The application let's the user enter a burger name and have the option to 'Devour' the burger by clicking on the 'Devour' button. The burger name then move to the 'Devour' section and it also has an option to delete the burger from the page and the database.",
-        "role":"Back and Front End Developer.",
+        "role":"In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery and Handlebars. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database using MySQL. Setup for the MySQL database with table schemes and seeds.",
         "url": "https://boiling-peak-13287.herokuapp.com/",
         "github":"https://github.com/jaab30/burger",
         "webTools": ["HTML5", "CSS3", "JavaScript", "jQuery", "NODE", "Express", "Handlebars", "MySQL", "Restful_APIs" ]
@@ -75,7 +75,7 @@
         "title":"React Web Portfolio",
         "image":"images/portfolio/portfolio.jpg",
         "description":"This web application is a simple portfolio created in React. The app has five pages. Uses Parallax and smooth page scrolling. The Project page will filter projects by cartegory (web tools).",
-        "role":"Front End Developer.",
+        "role":"In charge of the design, layout and functionality of the Front End using React, JSX and CSS.",
         "url": "https://jaab30.github.io/react-ja-porfolio",
         "github":"https://github.com/jaab30/react-ja-porfolio",
         "webTools": ["React", "JavaScript", "CSS3", "Bootstrap"]
