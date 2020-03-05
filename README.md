@@ -7,7 +7,7 @@ Web Tools: React, Javascript, JSX, CSS3, Bootstrap.
 
 Here it is the link for the application:
 
-https://jaab30.github.io/react-ja-porfolio/
+https://jaab30.github.io/jorge-alvarez-web/
 
 <img src="https://user-images.githubusercontent.com/40499942/72765667-85ec4b00-3bbb-11ea-8e31-2927f685c834.png" alt="portfolio_pix" width="400px" height="225px">
 <img src="https://user-images.githubusercontent.com/40499942/72765677-97355780-3bbb-11ea-9367-fbc4155de80c.png" alt="portfolio_pix" width="400px" height="225px">
