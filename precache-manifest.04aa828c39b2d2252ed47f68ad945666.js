@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "368389943a5e428336cc2569d75b2e63",
+    "revision": "1755dfb5abb8ab8433ac2f6677158f2a",
     "url": "/jorge-alvarez-web/index.html"
   },
   {
-    "revision": "279931c706f56fbeefa1",
+    "revision": "c2243f8c95169921f515",
     "url": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css"
   },
   {
-    "revision": "15e22c0cb0aff82e1199",
+    "revision": "c1b3d61fe1f471fbfd14",
     "url": "/jorge-alvarez-web/static/css/main.87cc790f.chunk.css"
   },
   {
-    "revision": "279931c706f56fbeefa1",
-    "url": "/jorge-alvarez-web/static/js/2.3681433a.chunk.js"
+    "revision": "c2243f8c95169921f515",
+    "url": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js"
   },
   {
-    "revision": "15e22c0cb0aff82e1199",
-    "url": "/jorge-alvarez-web/static/js/main.9f2cf5ac.chunk.js"
+    "revision": "c1b3d61fe1f471fbfd14",
+    "url": "/jorge-alvarez-web/static/js/main.59d4d6a4.chunk.js"
   },
   {
     "revision": "cc95fb54ecfa0c10aa64",
