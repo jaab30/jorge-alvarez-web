@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac0405c447e64ed0afb0e6410f96bc33",
+    "revision": "9c94a537a058e9b1b522c675f3881d3b",
     "url": "/jorge-alvarez-web/index.html"
   },
   {
-    "revision": "c2243f8c95169921f515",
+    "revision": "dca21eb43374f55598c2",
     "url": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css"
   },
   {
-    "revision": "fcb22aaf1b59937af9d3",
-    "url": "/jorge-alvarez-web/static/css/main.87cc790f.chunk.css"
+    "revision": "ef9289e12084da0be9fc",
+    "url": "/jorge-alvarez-web/static/css/main.20058c00.chunk.css"
   },
   {
-    "revision": "c2243f8c95169921f515",
-    "url": "/jorge-alvarez-web/static/js/2.6c18b753.chunk.js"
+    "revision": "dca21eb43374f55598c2",
+    "url": "/jorge-alvarez-web/static/js/2.dd3a9ee9.chunk.js"
   },
   {
-    "revision": "fcb22aaf1b59937af9d3",
-    "url": "/jorge-alvarez-web/static/js/main.62e65c89.chunk.js"
+    "revision": "ef9289e12084da0be9fc",
+    "url": "/jorge-alvarez-web/static/js/main.877e3a3e.chunk.js"
   },
   {
     "revision": "cc95fb54ecfa0c10aa64",
