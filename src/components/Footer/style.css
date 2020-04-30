@@ -4,9 +4,12 @@
 .footerText {
     font-family: 'Roboto Condensed', sans-serif;
     text-align:center;
-    margin: 30px 0;
-
-    
+    margin: 30px 0;   
+}
+.footerCount {
+    text-align:center;
+    margin:0;
+    opacity: .5;   
 }
 .footerText a {
     color: #aaa;

@@ -3,25 +3,22 @@ import styled, { keyframes } from 'styled-components';
 import { flash } from 'react-animations'
 import "./style.css";
 
-// import VideoBack from "../../components/VideoBack"
 import NavBlock from "../../components/NavBlock";
 
 const fadeInAnimation = keyframes`${flash}`;
- 
+
 const FadeDiv = styled.div`
     animation: .7s ${fadeInAnimation};
     `;
 
-    
+
 class IntroPage extends React.Component {
 
-    render(){
-        
+    render() {
 
         return (
             <div id="intro" className="introPage">
-                
-                {/* <VideoBack /> */}
+
                 <div className="content">
                     <div className="container-fluid headingIntro">
                         <div className="row">
@@ -32,25 +29,25 @@ class IntroPage extends React.Component {
                         </div>
                     </div>
                     <NavBlock
-                    toContent={"/#about"}
-                    classContent={"nav about"}
-                    title={"About"} 
+                        toContent={"/#about"}
+                        classContent={"nav about"}
+                        title={"About"}
                     />
                     <NavBlock
-                    toContent={"/#work"}
-                    classContent={"nav work"}
-                    title={"Work"} 
+                        toContent={"/#work"}
+                        classContent={"nav work"}
+                        title={"Work"}
                     />
                     <NavBlock
-                    toContent={"/#portfolio"}
-                    classContent={"nav portfolio"}
-                    title={"Portfolio"} 
+                        toContent={"/#portfolio"}
+                        classContent={"nav portfolio"}
+                        title={"Portfolio"}
                     />
                     <NavBlock
-                    toContent={"/#contact"}
-                    classContent={"nav contact"}
-                    title={"Contact"} 
-                    /> 
+                        toContent={"/#contact"}
+                        classContent={"nav contact"}
+                        title={"Contact"}
+                    />
                 </div>
             </div>
         )

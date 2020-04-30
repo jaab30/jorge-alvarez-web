@@ -1,13 +1,8 @@
 import React from "react";
-import "./style.css"
-
 
 function Container(props) {
-
-
-    return(
+    return (
         <div className="contatiner-fluid">{props.children}</div>
-
     )
 }
 

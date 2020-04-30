@@ -1,34 +1,33 @@
 [
     {
-        "employer":"TRILOGY EDUCATION / UCF",
-        "employer_sub":"University of Central Florida Coding Bootcamp",
-        "position":"Teacher Assistant - Web Development Program",
+        "employer": "TRILOGY EDUCATION / UCF",
+        "employer_sub": "University of Central Florida Coding Bootcamp",
+        "position": "Teacher Assistant - Web Development Program",
         "description": [
-            "Provide support and guidance to the students attending UCF's Full Stack Web Development Program.",
-            "Reinforce lesson material presented by lead Instructor by helping students with questions and reviewing material one-on-one or in small groups.",
-            "Teach class material to students as well as lead class reviews and discussions in the following subjects: HTML5, CSS3, Javascript (ES6), JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, RESTful API's, MVC, Handlebars, PHP, PHP Frameworks, React Js, Agile Methodology, Scrum & GitHub Version Control Platform.",
-            "Help students with troubleshooting and debugging computer and coding issues.",
-            "Provide record keeping, such as tracking attendance and grading homework assignments."
+            "Assist the lead instructor with preparation and facilitation of classes for students attending UCF's Full Stack Web Development Coding Bootcamp Program.",
+            "Topics of subjects taught include: HTML5, CSS3, JavaScript (ES6), Node.js, Express, React, jQuery, Bootstrap, Firebase, MySQL, MongoDB, REST APIs, MVC, Handlebars, PHP, PHP Frameworks, Agile, Scrum & GitHub Version Control Platform.",
+            "Liaison with the class lead instructor to develop detailed plans, providing regular feedback on the student’s work, assisting with students to reach their academic achievements, and helping to evaluate learning activities. ",
+            "Provide support to students by reviewing web applications and assisting them with troubleshooting issues and fixing application functionality.",
+            "Deliver weekly coding sessions and reviews to help the students understand and develop coding techniques."
         ],
         "image": "images/trilogy.png"
-
     },
     {
-        "employer":"FULL SAIL UNIVERSITY",
-        "employer_sub":"",
-        "position":"Instructor - Lab Specialist",
+        "employer": "FULL SAIL UNIVERSITY",
+        "employer_sub": "",
+        "position": "Instructor - Lab Specialist",
         "description": [
-            "Recognized by Program Director for leading students to successfully complete class objectives.",
-            "Assist and helps over 200 students monthly with equipment and software set up as well as implementing troubleshooting techniques to solve computer and/or software issues.",
-            "Assist in developing lesson plans based on state requirements and the specific needs of the students.",
-            "Assist with classroom instruction and provide support and guidance to students."
+            "Taught students how to utilize Music Software Applications to be used to write and produce Music.",
+            "Formally commended by Program Director for leading students to successfully complete class objectives.",
+            "Provided support to over 200 students monthly with equipment and software set up as well as implementing troubleshooting techniques to solve computer and/or software issues.",
+            "Prepared students for success when taking various standardized tests required by the state."
         ],
         "image": "images/fullsail.png"
     },
     {
-        "employer":"YRS MIDI Systems",
-        "employer_sub":"",
-        "position":"Software Support / Web",
+        "employer": "YRS MIDI Systems",
+        "employer_sub": "",
+        "position": "Software Support / Web",
         "description": [
             "Creation, design and maintenance of Store Web Page.",
             "Keep all web content up to date ( ie. new inventory, prices, product availability, etc )",
@@ -37,5 +36,4 @@
         ],
         "image": "images/yrs.png"
     }
-
 ]

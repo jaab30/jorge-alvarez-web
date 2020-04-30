@@ -6,8 +6,7 @@ import "./style.css"
 
 function NavBlock(props) {
 
-
-    return(
+    return (
         <Link to={props.toContent}>
             <div className={props.classContent}>
                 <div className="navTextDiv">
