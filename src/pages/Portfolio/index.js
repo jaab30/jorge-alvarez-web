@@ -54,9 +54,9 @@ class Portfolio extends React.Component {
                 webToolTitle = "HTML5 / CSS3";
             } else if (x === "NODE") {
                 webToolTitle = "NODE / Express";
-            } else if (x === "Full_CRUD") {
+            } else if (x === "Full CRUD") {
                 webToolTitle = "C.R.U.D.";
-            } else if (x === "Restful_APIs") {
+            } else if (x === "Restful APIs") {
                 webToolTitle = "Restful APIs";
             } else {
                 webToolTitle = x;
@@ -87,11 +87,11 @@ class Portfolio extends React.Component {
                             <img onClick={() => { this.onSubmit("JavaScript") }} className="techIconPort" src="images/tech/javascriptv1.png" alt="icon" title="JavdScript" />
                             <img onClick={() => { this.onSubmit("jQuery") }} className="techIconPort" src="images/tech/jqueryv1.png" alt="icon" title="jQuery" />
                             <img onClick={() => { this.onSubmit("NODE") }} className="techIconPort" src="images/tech/nodev1.png" alt="icon" title="NODE" />
-                            <img onClick={() => { this.onSubmit("Restful_APIs") }} className="techIconPort" src="images/tech/apiv1.png" alt="icon" title="Restful Api" />
+                            <img onClick={() => { this.onSubmit("Restful APIs") }} className="techIconPort" src="images/tech/apiv1.png" alt="icon" title="Restful Api" />
                             <img onClick={() => { this.onSubmit("React") }} className="techIconPort" src="images/tech/reactv1.png" alt="icon" title="React" />
                             <img onClick={() => { this.onSubmit("PHP") }} className="techIconPort" src="images/tech/php1.png" alt="icon" title="PHP" />
                             <img onClick={() => { this.onSubmit("Laravel") }} className="techIconPort" src="images/tech/laravel.png" alt="icon" title="Laravel" />
-                            <img onClick={() => { this.onSubmit("Full_CRUD") }} className="techIconPort" src="images/tech/crud2.png" alt="icon" title="CRUD" />
+                            <img onClick={() => { this.onSubmit("Full CRUD") }} className="techIconPort" src="images/tech/crud2.png" alt="icon" title="CRUD" />
                             <img onClick={() => { this.onSubmit("MySQL") }} className="techIconPort" src="images/tech/mysqlv1.png" alt="icon" title="MySQL" />
                             <img onClick={() => { this.onSubmit("MongoDB") }} className="techIconPort" src="images/tech/mongodbv1.png" alt="icon" title="MongoDB" />
                         </div>
