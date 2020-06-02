@@ -45,7 +45,7 @@
         "image": "images/portfolio/passport_auth1.jpg",
         "description": "This is a ready to use boiler plate that uses Passport for User Authentication and MySQL with Sequelize for Data Storage.",
         "role": " In charge of the design, layout and functionality of the Front End using HTML, CSS, Javascript, Bootstrap. Also in charge of setting all Front and Back end routes to interact with Passport and MySQL",
-        "url": "https://passport-auth-boiler-plate.herokuapp.com/",
+        "url": "https://auth-passport.herokuapp.com/",
         "github": "https://github.com/jaab30/passport_mysql_sequelize_boiler_plate",
         "webTools": [
             "HTML5",
