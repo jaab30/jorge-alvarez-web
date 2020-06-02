@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b52b7b582005871cd68afb69bc0dcd2c",
+    "revision": "06adea668c34d788d062dfbe11c554ff",
     "url": "/jorge-alvarez-web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jorge-alvarez-web/static/css/2.7ec30cc4.chunk.css"
   },
   {
-    "revision": "bb298eb5164b704140b4",
+    "revision": "8c0dd572e9280408acb3",
     "url": "/jorge-alvarez-web/static/css/main.20058c00.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jorge-alvarez-web/static/js/2.dd3a9ee9.chunk.js"
   },
   {
-    "revision": "bb298eb5164b704140b4",
-    "url": "/jorge-alvarez-web/static/js/main.ea1444e5.chunk.js"
+    "revision": "8c0dd572e9280408acb3",
+    "url": "/jorge-alvarez-web/static/js/main.b676d2c4.chunk.js"
   },
   {
     "revision": "cc95fb54ecfa0c10aa64",
