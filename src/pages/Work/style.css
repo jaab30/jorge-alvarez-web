@@ -5,7 +5,7 @@
 }
 
 #work {
-    padding-top: 80px;
+    padding-top: 50px;
     min-height: 100vh;
 }
 .aboutParallax {
@@ -28,13 +28,12 @@
 }
 .classColumn {
     margin:20px 0;
-    padding-left: 30px;
+    padding: 0 30px;
 }
 .classColumn:nth-child(2){
     border-left: white solid 1px;
     border-right: white solid 1px;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding: 0 30px;
 }
 .workImage {
     width:100%;
@@ -49,7 +48,7 @@
 }
 
 .workCardHeader {
-    height: 9rem;
+    height: 8rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -63,7 +62,8 @@
 }
 
 .workSubTitleDiv {
-    min-height: 50px;
+    min-height: 40px;
+    font-style: italic;
 }
 .workSubTitle {
     font-size: 1.2em;
@@ -72,6 +72,9 @@
 }
 .workPosition {
     color: white;
+}
+h5.workPosition {
+    margin: 0
 }
 
 ul:not(.browser-default) {

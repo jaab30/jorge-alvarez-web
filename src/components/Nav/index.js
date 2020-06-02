@@ -1,47 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
 import "./style.css";
 
-class Nav extends React.Component {
+function Nav() {
 
-  state = {
-    display: 'none'
-  }
+  const [display, setDisplay] = useState("none");
 
-  listenScrollEvent = e => {
+  const listenScrollEvent = e => {
     if (window.scrollY < 350) {
-      this.setState({ display: 'none' })
+      setDisplay("none");
     } else {
-      this.setState({ display: 'block' })
+      setDisplay("block");
     }
   }
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent)
+  })
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent)
-  }
 
-  render() {
-
-    return (
-      <div className="navbarContainer" style={{ display: this.state.display }}>
-        <div className="navItem">
-          <Link className="navItem-link active" to="/#about">About</Link>
-        </div>
-        <div className="navItem">
-          <Link className="navItem-link" to="/#work">Work</Link>
-        </div>
-        <div className="navItem">
-          <Link className="navItem-link" to="/#portfolio">Portfolio</Link>
-        </div>
-        <div className="navItem">
-          <Link className="navItem-link" to="/#contact">Contact</Link>
-        </div>
-        <div className="navItemLogo">
-          <Link className="navItem-link" to="/#intro">Jorge Alvarez</Link>
-        </div>
+  return (
+    <div className="navbarContainer" style={{ display }}>
+      <div className="navItem">
+        <Link className="navItem-link active" to="/#about">About</Link>
       </div>
-    )
-  }
+      <div className="navItem">
+        <Link className="navItem-link" to="/#work">Work</Link>
+      </div>
+      <div className="navItem">
+        <Link className="navItem-link" to="/#portfolio">Portfolio</Link>
+      </div>
+      <div className="navItem">
+        <Link className="navItem-link" to="/#contact">Contact</Link>
+      </div>
+      <div className="navItemLogo">
+        <Link className="navItem-link" to="/#intro">Jorge Alvarez</Link>
+      </div>
+    </div>
+  )
 }
 
 export default Nav

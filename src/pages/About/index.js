@@ -29,8 +29,9 @@ function About() {
                 <div className="row justify-content-center bottomRowAbout">
                     <div className="col-md-9">
                         <div className="bioTextDiv">
-                            <p className="bioText"> A Web developer who has been involved with computers and technology for over 20 years. I have an extensive background in the education field as well as dealing with troubleshooting issues and decision making situations. I’ve always been captivated by the world of coding and web applications. That’s why I completed the Full Stack Web Development Coding Bootcamp program at the University of Central Florida and have been working in the Web Development field since. <br></br><br></br>
-                            I believe that good communication is vital for success as well as being able to work individually or with others. I’ve learned to adapt to new situations and I’ve been able to excel at the new challenges.
+                            <p className="bioText"> A forward-thinking Full Stack Web Developer with a proven work ethic and unfailing dependability, skilled at developing and delivering highly effective applications in a timely manner. <br></br>
+                            Dedicated enthusiast who mentors and trains Full Stack Web Developer students to achieve their goals of becoming successful developers. Frequently adopts a systematic and methodical approach to tasks in high pressured environments and excels at reprioritizing workloads as requirements change. <br></br>
+                            Passionate about learning and coding, with a desire to apply skills on an enterprise level. Eager to join a team to tackle more complex problems and deliver high quality development solutions.
                             </p>
                             <div className="techImg">
                                 <img className="techIcon" src="images/tech/html5v1.png" alt="icon" title="HTML5" />

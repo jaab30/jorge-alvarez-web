@@ -20,11 +20,7 @@ function PortfolioCard(props) {
             </div>
 
         </div>
-        // </div>
-
     )
-
 }
-
 
 export default PortfolioCard

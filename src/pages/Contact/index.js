@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"
 
 
-function Contact(props) {
+function Contact() {
 
     return (
         <section id="contact">

@@ -8,23 +8,19 @@ import Portfolio from "../../pages/Portfolio"
 import Contact from "../../pages/Contact"
 import Footer from "../../components/Footer"
 
-class Main extends React.Component {
+function Main() {
 
-    render() {
-
-        return (
-            <div>
-                <Nav />
-                <IntroPage />
-                <About />
-                <Work />
-                <Portfolio />
-                <Contact />
-                <Footer />
-            </div>
-
-        )
-    }
+    return (
+        <div>
+            <Nav />
+            <IntroPage />
+            <About />
+            <Work />
+            <Portfolio />
+            <Contact />
+            <Footer />
+        </div>
+    )
 }
 
 export default Main;

@@ -12,48 +12,43 @@ const FadeDiv = styled.div`
     `;
 
 
-class IntroPage extends React.Component {
+function IntroPage() {
 
-    render() {
+    return (
+        <div id="intro" className="introPage">
 
-        return (
-            <div id="intro" className="introPage">
-
-                <div className="content">
-                    <div className="container-fluid headingIntro">
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <FadeDiv><h1 className="introTitle">Jorge Alvarez</h1></FadeDiv>
-                                <h3 className="introSubTitle">Web Developer</h3>
-                            </div>
+            <div className="content">
+                <div className="container-fluid headingIntro">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <FadeDiv><h1 className="introTitle">Jorge Alvarez</h1></FadeDiv>
+                            <h3 className="introSubTitle">Web Developer</h3>
                         </div>
                     </div>
-                    <NavBlock
-                        toContent={"/#about"}
-                        classContent={"nav about"}
-                        title={"About"}
-                    />
-                    <NavBlock
-                        toContent={"/#work"}
-                        classContent={"nav work"}
-                        title={"Work"}
-                    />
-                    <NavBlock
-                        toContent={"/#portfolio"}
-                        classContent={"nav portfolio"}
-                        title={"Portfolio"}
-                    />
-                    <NavBlock
-                        toContent={"/#contact"}
-                        classContent={"nav contact"}
-                        title={"Contact"}
-                    />
                 </div>
+                <NavBlock
+                    toContent={"/#about"}
+                    classContent={"nav about"}
+                    title={"About"}
+                />
+                <NavBlock
+                    toContent={"/#work"}
+                    classContent={"nav work"}
+                    title={"Work"}
+                />
+                <NavBlock
+                    toContent={"/#portfolio"}
+                    classContent={"nav portfolio"}
+                    title={"Portfolio"}
+                />
+                <NavBlock
+                    toContent={"/#contact"}
+                    classContent={"nav contact"}
+                    title={"Contact"}
+                />
             </div>
-        )
-    }
-
-
+        </div>
+    )
 }
 
 export default IntroPage;

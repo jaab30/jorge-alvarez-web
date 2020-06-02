@@ -20,10 +20,7 @@ function WorkCard(props) {
                 </ul>
             </div>
         </div>
-
     )
-
 }
-
 
 export default WorkCard
