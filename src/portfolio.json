@@ -21,7 +21,7 @@
     {
         "title": "Ticket Generator",
         "image": "images/portfolio/tixGen.jpg",
-        "description": "This is a Full Stack MERN application designed to create tickets or work orders. It was created to maximaize comunication within employees in an organizaion and also between users and administration in a larger scale enviroments. This application uses JWT to handle Authentication and Redux to handle React state.",
+        "description": "This is a Full Stack MERN application designed to create tickets or work orders. It was created to maximize communication within employees in an organization and also between users and administration in a larger scale environments. This application uses JWT to handle Authentication and Redux to handle React state.",
         "role": "Led the full design and functionality of this application. Managed the design, layout, and functionality of the Front-End using React, Redux, Reactstrap and Redux Middleware (Thunk). Developed all Back-End functionality with Node.js and Express, and all the API and HTML routes to listen for all HTTP requests and interact with the database. Configured JWT processes for user authentication. Built all models and interaction with database using MongoDB",
         "url": "http://ec2-18-220-148-152.us-east-2.compute.amazonaws.com/",
         "github": "https://github.com/jaab30/ticketGen",

@@ -29,7 +29,7 @@ function Contact(props) {
                                 <span className="phoneIcon"><i className="fas fa-street-view fa-3x"></i></span> <span className="phoneText">PO Box 679556, Orlando - FL 32867</span>
                             </div>
                             <div className="col-12 contactInfoCol webLinksDiv">
-                                <a className="linkedInLink" href="https://www.linkedin.com/in/jalvarez1" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
+                                <a className="linkedInLink" href="https://www.linkedin.com/in/meet-jorge-alvarez" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
                                 <a className="gitHubLink" href="https://github.com/jaab30" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-2x"></i></a>
                             </div>
                         </div>
