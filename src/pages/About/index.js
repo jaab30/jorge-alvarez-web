@@ -29,8 +29,8 @@ function About() {
                 <div className="row justify-content-center bottomRowAbout">
                     <div className="col-md-9">
                         <div className="bioTextDiv">
-                            <p className="bioText"> A forward-thinking Full Stack Web Developer with a proven work ethic and unfailing dependability, skilled at developing and delivering highly effective applications in a timely manner. <br></br>
-                            Dedicated enthusiast who mentors and trains Full Stack Web Developer students to achieve their goals of becoming successful developers. Frequently adopts a systematic and methodical approach to tasks in high pressured environments and excels at reprioritizing workloads as requirements change. <br></br>
+                            <p className="bioText"> A forward-thinking Full Stack Web Developer with a proven work ethic and unfailing dependability, specialized in JavaScript, React, Redux and the MERN Stack. <br></br>
+                            Dedicated enthusiast who mentors and trains Full Stack Web Developer students to achieve their goals of becoming successful developers.<br></br>
                             Passionate about learning and coding, with a desire to apply skills on an enterprise level. Eager to join a team to tackle more complex problems and deliver high quality development solutions.
                             </p>
                             <div className="techImg">

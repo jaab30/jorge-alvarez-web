@@ -60,28 +60,6 @@
         ]
     },
     {
-        "title": "Task Planner - CRUD",
-        "image": "images/portfolio/taskPlannerNodeB.jpg",
-        "description": "This web application is a simple but very professional looking Task Planner. Fully CRUD using NodeJs, Express, Handlebars and Sequelized (MySQL). Use MVC model folder structure. Simply enter your database credentials in the '.env' file and it is ready to use.",
-        "role": "In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery and Materialize. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database using MySQL. Setup for the MySQL database with table schemes and seeds.",
-        "url": "https://todolist-crud-node.herokuapp.com/",
-        "github": "https://github.com/jaab30/task-planner",
-        "webTools": [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "jQuery",
-            "Materialize",
-            "NODE",
-            "Express",
-            "Handlebars",
-            "Full CRUD",
-            "Sequelize",
-            "MySQL",
-            "Restful APIs"
-        ]
-    },
-    {
         "title": "Intake - Low Carb Recipe Search",
         "image": "images/portfolio/project2.jpg",
         "description": "The main functionality for this web application is to perform searches for 'Low Carb' recipes. In addition, the application will show the user 'Featured and Trendy Recipes'. The user will also be able to 'Save' favorite recipes to the 'favorite List' as well as being able to submit their own recipe for other users to try.",
@@ -99,6 +77,28 @@
             "Full CRUD",
             "Sequelize",
             "MySQL",
+            "Restful APIs"
+        ]
+    },
+    {
+        "title": "React - JSON Web Tokens Boiler Plate",
+        "image": "images/portfolio/react-jwt.jpg",
+        "description": "This is a Boiler Plate MERN application with authentication using JSON Web Tokens. This APP was design to be used as a starting point for any developer looking to integrate authentication with a MERN application. This application uses JWT to handle Authentication and Redux to handle React state.",
+        "role": "Managed the design, layout, and functionality of the Front-End using React, Redux, Redux Thunk, Redux Forms, Semantic UI. Developed all Back-End functionality with Node.js and Express, and all the API routes to listen for all HTTP requests and interact with the database. Configured JWT processes for user authentication. Built interaction with database using MongoDB.",
+        "url": "https://mern-auth-boiler-plate-jwt.herokuapp.com/",
+        "github": "https://github.com/jaab30/react-jwt-boiler-plate",
+        "webTools": [
+            "React",
+            "Redux",
+            "JSX",
+            "CSS3",
+            "JavaScript",
+            "NODE",
+            "Express",
+            "Semantic UI",
+            "JWT",
+            "MongoDB",
+            "Full CRUD",
             "Restful APIs"
         ]
     },
@@ -151,6 +151,28 @@
             "MongoDB",
             "React",
             "MERN",
+            "Restful APIs"
+        ]
+    },
+    {
+        "title": "Task Planner - CRUD",
+        "image": "images/portfolio/taskPlannerNodeB.jpg",
+        "description": "This web application is a simple but very professional looking Task Planner. Fully CRUD using NodeJs, Express, Handlebars and Sequelized (MySQL). Use MVC model folder structure. Simply enter your database credentials in the '.env' file and it is ready to use.",
+        "role": "In charge of the layout and functionality of the Front End using HTML, CSS, Javascript, jQuery and Materialize. In charge of setting all the Backend functionality with NodeJs and Express. Setting all API and HTML routes to listen for all HTTP requests from the front end and interact with the database using MySQL. Setup for the MySQL database with table schemes and seeds.",
+        "url": "https://todolist-crud-node.herokuapp.com/",
+        "github": "https://github.com/jaab30/task-planner",
+        "webTools": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "jQuery",
+            "Materialize",
+            "NODE",
+            "Express",
+            "Handlebars",
+            "Full CRUD",
+            "Sequelize",
+            "MySQL",
             "Restful APIs"
         ]
     },
