@@ -6,7 +6,7 @@ function Contact() {
 
     return (
         <section id="contact">
-            <div className="container">
+            <div className="container contactContainer">
                 <div className="row">
                     <div className="col-12">
                         <h1 className="contactTitle">Contact<span className="contactTitleSub"> Me</span></h1>

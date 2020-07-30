@@ -33,7 +33,9 @@ function Nav() {
         <Link className="navItem-link" to="/#contact">Contact</Link>
       </div>
       <div className="navItemLogo">
-        <Link className="navItem-link" to="/#intro">Jorge Alvarez</Link>
+        <Link className="navItem-link mr-2" to="/#intro">Jorge Alvarez</Link>
+          <a className="socialNav" href="https://www.linkedin.com/in/meet-jorge-alvarez" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+          <a className="socialNav" href="https://github.com/jaab30" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
       </div>
     </div>
   )

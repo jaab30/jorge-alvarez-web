@@ -7,6 +7,10 @@
 #work {
     padding-top: 50px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .aboutParallax {
     position: relative; 
@@ -15,15 +19,15 @@
     margin:0;
 }
 .rowDiv {
-    width: 90%;
+    width: 80%;
     padding: 0 10px;
-    background-color: rgb(0, 70, 71, .7);
+    background-color: rgb(0, 70, 71, .8);
     margin: 0 auto 40px;
 }
 
 .cardDiv {
     width: 100%;
-    min-height: 400px;
+    /* min-height: 400px; */
     border-radius: 10px 0 10px 0;
 }
 .classColumn {
@@ -35,8 +39,9 @@
     border-right: white solid 1px;
     padding: 0 30px;
 }
-.workImage {
-    width:100%;
+.workImg {
+    height: 30px;
+    margin-right: 20px;
 }
 .workHeaderRow h2 {
     font-family: 'Revalia', sans-serif;
@@ -44,26 +49,31 @@
     font-size: 4em;
     text-shadow: none;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 20px 0;
 }
 
 .workCardHeader {
-    height: 8rem;
+    /* height: 8rem; */
     font-family: 'Roboto Condensed', sans-serif;
-}
+    margin-bottom: 20px;
 
+}
+.workTitleDiv {
+    padding: 2px;
+}
 .workCardHeader h3 {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     padding: 10px;
     background-color: rgb(0, 0, 0, .5);
     text-align: center;
 }
 
 .workSubTitleDiv {
-    min-height: 40px;
+    /* min-height: 40px; */
     font-style: italic;
+    margin: 20px 0 10px;
 }
 .workSubTitle {
     font-size: 1.2em;
@@ -106,21 +116,43 @@ ul:not(.browser-default)>li {
         color: white;
     }
    }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 550px) {
+    .workImg {
+        height: 20px;
+        margin-right: 10px;
+    }
+    .rowDiv {
+        width: 95%;
+    }
+    .workCardHeader h3 {
+        font-size: 1.5em;
+        }
+    
+   }
+@media screen and (max-width: 450px) {
+    .workImg {
+        height: 20px;
+        margin: 0 10px;
+    }
+    .workCardHeader h3 {
+    font-size: 1em;
+    }
+   }
+/* @media screen and (max-width: 1100px) {
 
    .rowDiv{
        margin:0 0 40px 0;
        width: 100%;
    }
-   }
-@media screen and (max-width: 991px) {
+   } */
+/* @media screen and (max-width: 991px) {
     .classColumn:nth-child(2){
         border-right: none;
     }
-   }
-@media screen and (max-width: 767px) {
+   } */
+/* @media screen and (max-width: 767px) {
     .classColumn:nth-child(2){
         border-left:none;
         border-right: none;
     }
-   }
+   } */

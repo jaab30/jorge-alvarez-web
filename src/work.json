@@ -1,6 +1,7 @@
 [
     {
-        "employer": "TRILOGY EDUCATION / UCF",
+        "employer1": "Trilogy Education Services",
+        "employer2": "University of Central Florida",
         "employer_sub": "University of Central Florida Coding Bootcamp",
         "position": "Teacher Assistant - Web Development Program",
         "description": [
@@ -11,30 +12,7 @@
             "Deliver weekly coding sessions and reviews to help the students understand and develop coding techniques.",
             "Distinguished as an excellent Teaching Assistant and invited to teach at two classes simultaneously (Full-Time and Part-Time). "
         ],
-        "image": "images/trilogy.png"
-    },
-    {
-        "employer": "FULL SAIL UNIVERSITY",
-        "employer_sub": "",
-        "position": "Instructor - Lab Specialist",
-        "description": [
-            "Taught students how to utilize Music Software Applications to be used to write and produce Music.",
-            "Formally commended by Program Director for leading students to successfully complete class objectives.",
-            "Provided support to over 200 students monthly with equipment and software set up as well as implementing troubleshooting techniques to solve computer and/or software issues.",
-            "Prepared students for success when taking various standardized tests required by the state."
-        ],
-        "image": "images/fullsail.png"
-    },
-    {
-        "employer": "YRS MIDI Systems",
-        "employer_sub": "",
-        "position": "Software Support / Web",
-        "description": [
-            "Creation, design and maintenance of Store Web Page.",
-            "Keep all web content up to date ( ie. new inventory, prices, product availability, etc )",
-            "Responsible for installation, maintenance and support of software applications.",
-            "Responsible for instructing clients on how to utilize new software applications and how to apply troubleshooting techniques to solve software issues."
-        ],
-        "image": "images/yrs.png"
+        "image1": "images/trilogy_logo.png",
+        "image2": "images/ucf_logo.png"
     }
 ]

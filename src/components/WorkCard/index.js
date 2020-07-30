@@ -1,20 +1,33 @@
 import React from "react"
 
-function WorkCard(props) {
+function WorkCard({ image1, image2, title1, title2, subTitle, position, description }) {
 
     return (
 
-        <div className="col-md-6 col-lg-4 classColumn">
+        <div className="col mx-auto classColumn">
             <div className="cardDiv">
                 <div className="workCardHeader">
-                    <h3 className="workTitle">{props.title}</h3>
-                    <div className="workSubTitleDiv">
-                        <h4 className="workSubTitle">{props.subTitle}</h4>
+                    <div className="row">
+                        <div className="col-md-6 workTitleDiv">
+                            <h3 className="workTitle">
+                                <img src={image1} className="workImg" alt="Trilogy Logo"/>
+                                {title1}
+                            </h3>
+                        </div>
+                        <div className="col-md-6 workTitleDiv">
+                            <h3 className="workTitle">
+                                <img src={image2} className="workImg" alt="Trilogy Logo"/>
+                                {title2}
+                            </h3>
+                        </div>
                     </div>
-                    <h5 className="workPosition">{props.position}</h5>
+                    <div className="workSubTitleDiv">
+                        <h4 className="workSubTitle">{subTitle}</h4>
+                    </div>
+                    <h5 className="workPosition">{position}</h5>
                 </div>
                 <ul className="">
-                    {props.description.map((item, i) => (
+                    {description.map((item, i) => (
                         <li key={i} className="workDescription">{item}</li>
                     ))}
                 </ul>
