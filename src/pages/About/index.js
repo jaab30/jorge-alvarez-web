@@ -22,7 +22,7 @@ function About() {
                             <img className="bioImg" src="images/JA_Profile_Pix.jpg" alt="Profile Pix" />
                         </Background>
                         <div className="aboutTitle">
-                            <h2 className="h2bio">About Me</h2>
+                            <h2 className="h2bio">About Me TESTING</h2>
                         </div>
                     </div>
                 </div>
