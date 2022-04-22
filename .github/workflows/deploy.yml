@@ -12,8 +12,7 @@ jobs:
       with:
         node-version: '14.x'
     - run: npm ci
-    - run: npm run build
-    - run: gh-pages -d build
+    - run: npm run deploy
 
     # - name: Init new repo in dist folder and commit generated files
     #   run: |
