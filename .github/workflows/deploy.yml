@@ -19,8 +19,8 @@ jobs:
         cd ./public
         git init
         git add -A
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "jaab30@yahoo.com"
+        git config --local user.name "Jorge Alvarez"
         git commit -m 'deploy'
         git config --global --add safe.directory /github/workspace/public
 
