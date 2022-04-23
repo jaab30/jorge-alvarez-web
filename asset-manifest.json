@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c75d2093.chunk.css",
+    "main.js": "/static/js/main.28c2416f.chunk.js",
+    "main.js.map": "/static/js/main.28c2416f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19a4092f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19a4092f.js.map",
+    "static/css/2.7ec30cc4.chunk.css": "/static/css/2.7ec30cc4.chunk.css",
+    "static/js/2.c7f35636.chunk.js": "/static/js/2.c7f35636.chunk.js",
+    "static/js/2.c7f35636.chunk.js.map": "/static/js/2.c7f35636.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bbe5a3deec6a89edf16553221346de3d.js": "/precache-manifest.bbe5a3deec6a89edf16553221346de3d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7ec30cc4.chunk.css.map": "/static/css/2.7ec30cc4.chunk.css.map",
+    "static/css/main.c75d2093.chunk.css.map": "/static/css/main.c75d2093.chunk.css.map",
+    "static/media/code3Check.jpg": "/static/media/code3Check.8d315ac0.jpg",
+    "static/media/codeCheck2.jpg": "/static/media/codeCheck2.a7f32620.jpg",
+    "static/media/style.css": "/static/media/milky.b8a01a52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19a4092f.js",
+    "static/css/2.7ec30cc4.chunk.css",
+    "static/js/2.c7f35636.chunk.js",
+    "static/css/main.c75d2093.chunk.css",
+    "static/js/main.28c2416f.chunk.js"
+  ]
+}
